@@ -4,23 +4,27 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="https://chunyangzhang.com/chunyangzhang.jpg" class="floatpic" width="360" height="480">
 
-Here is **Hanlin Cai (Lance, 蔡汉霖)**.
+Here is **Chunyang Zhang (Cedric, 张春阳)**.
 
-I am a senior undergrad majoring in **EECS** at Fuzhou University and Maynooth University (Combined degrees). Currently, I serve as a research assistant at the IIoT-Lab, advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) and [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). I also spent a lovely summer research program with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/)'s team at Cambridge University. Recently, I have been selected as an **AAAI UC Scholar**.
+Chunyang Zhang is a first-year Ph.D. student specializing in **Computer Science** at the School of Engineering and Information Technology, University of New South Wales. He completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on advanced machine learning techniques and modern optimization techniques under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) and [Dr. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo).
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *hanlin[dot]cai[at]ieee[dot]org*
+If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*bitzhangcy[at]gmail[dot]com*
 
 ## Academic Background
 
-**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!**
+**<font color='red'>[Highlight]</font> I am seeking Ph.D. students who share similar research interests to mine. If you are interested in potential collaboration, kindly reach out to me!**
 
-- **Sep 2020 - June 2024:** Fuzhou University (BEng)
-- **Sep 2020 - June 2024:** Maynooth University (BSc)
-- **June 2022 - Nov 2022:** Cambridge University (Exchange)
-
-Expect to apply for a one-year MPhil program and will graduate in Sep 2025. Looking for PhD position after that.
+- **January, 2024 - Present:** Ph.D. Student in Computer Science
+    - School of Engineering and Information Technology
+    - University of New South Wales, Canberra, Australia
+- **September, 2020 - June, 2023:** Master of Engineering in Control Science and Engineering
+    - School of Automation Science and Electrical Engineering
+    - Beihang University, Beijing, China
+- **August, 2016 - June, 2020:** Bachelor of Science in Control Science and Engineering
+    - School of Mechatronics Engineering
+    - Beijing Institute of Technology, Beijing, China
 
 <br>
 
@@ -28,13 +32,15 @@ Expect to apply for a one-year MPhil program and will graduate in Sep 2025. Look
 
 ## Research Interests
 
-- Internet of Everything (IoE)
-- Industrial Automation
-- Network and Cybersecurity
-- Applied Machine Learning
-- [My latest research proposal](https://caihanlin.com/file/proposal-2023.pdf) 🔗
+- Deep Learning
+- Distributed Optimization
+- Anomaly Detection
+- Probabilistic Generative Model
+- Safe Reinforcement Learning
+- Physics Informed Machine Learning
+- Intelligent Control Theory
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+I am currently engaged in research that centers around **deep learning-based anomaly detection** across diverse data types such as tabular, time series, graph network, image, and video. Additionally, I am exploring the development of **safe reinforcement learning** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
 
 <br>
 
@@ -42,14 +48,6 @@ My current research focuses on practical problems that artificial intelligence f
 
 ## News and Updates
 
-- **Dec 2023：**Very excited to be selected as [AAAI-24 UC Scholar](https://aaai-uc.github.io/), see you in Canada!
-- **Dec 2023：**Got a MSc offer from the physics department at Imperial College London.
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM 2023 (Top 1%).
-- **Jan 2023：**One paper accepted to ICAROB 2023, see you in Japan (online).
-- **Jun 2022：**Started research program at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
+- **August, 2023**：<font color='red'><strong>[Exciting news!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors:rocket:🎉🎉:rocket:!!!
 
 <br>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m thrilled to share that I have been awarded the AAAI 2024 Undergraduate Scholarship and will be attending the AAAI Conference in Vancouver this coming February.<br><br>I am also looking for PhD to start in 2025 Fall. Contact me if you have any leads! 😁 <a href="https://t.co/GxdTPnCzE6">pic.twitter.com/GxdTPnCzE6</a></p>&mdash; Hanlin CAI (seeking a PhD position 2025) (@lancecai2002) <a href="https://twitter.com/lancecai2002/status/1738533328490463639?ref_src=twsrc%5Etfw">December 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

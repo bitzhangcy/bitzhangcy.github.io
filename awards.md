@@ -4,52 +4,32 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-Lastest Update: 18th Dec 2023 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
+Latest Update: 17th January, 2024 
+
+
+---
+
 
 ## Scholarships
 
-- Dec 2023：**AAAI-24 Undergraduate Scholarship** ($2000)<br>Only 12 undergraduates are selected each year.
-- Aug 2023：**FEPG Scholarship** ($1400)<br>One of the highest undergraduate awards at FZU.
-- May 2023：**XiamenAir Scholarship** ($600)<br>One of the highest undergraduate awards at FZU
-- Oct 2023：Best Academic Performance of Maynooth (€100)
-- Oct 2022：Best Student Project Award of Maynooth (€100)
-- March 2023：Second Prize Scholarship of FZU ($1400)
-- Sep 2022：First Prize Scholarship of FZU ($2100)
-- March 2022：First Prize Scholarship of FZU ($2100)
-- Sep 2021：Third Prize Scholarship of FZU ($700)
-- March 2021：First Prize Scholarship of FZU ($2100)<br>Combined degree scholarship between FZU and Maynooth<br>
+- July, 2023: **University International Postgraduate Award of The University of New South Wales** ($37,684 per year and a total of 3.5 years.)<br>Only 2% of applications are awarded each year.
+- September, 2020,  September, 2021, and September, 2022:<br>**First Class Graduate Fellowship** (&yen; 7500)<br>Top 10% of graduate students are awarded at Beihang University.
+- September, 2017 and September, 2019: **National Encouragement Scholarship** (&yen; 5000)<br>One of the highest undergraduate awards at Beijing Institute of Technology
+- September, 2016 - June, 2020: **First Class Undergraduate Fellowship** (&yen; 1100 each term) <br>Top 5% of undergraduate are awarded at Beihang University.
 
 ## Competitions
 
-- Aug 2023：Second Prize in National Collegiate Internet of Things Technology and Application Competition
-- Aug 2023：**<font color='red'>Best Technology Award</font>** in National Youth Science Innovation Project Competition
-- Aug 2023：Second Prize in National College Digital Art&Design Awards (NCDA, provincial level)
-- July 2023：Third Prize in Fujian College Student Computer Design Competition
-- June 2023：**First Prize** (Provincial championship) in Fujian Youth Science Innovation Project Competition
-- May 2023：**<font color='red'>Finalist Award</font>** in Mathematical Contest In Modeling (Top 1% of all 20508 paper)
-- Nov 2022：First Prize (Provincial Level) in China Undergraduate Mathematical Contest in Modeling
-- Oct 2022：Maynooth International Engineering College Best Student Project in Academic Year 2022
-- Aug 2022： Third Prize in China National College Student Computer Design Competition
-- June 2022：Second Prize in Fujian College Student Computer Design Competition
-- June 2022：**Champion** of 100-meter Freestyle Swimming Competition of Fuzhou University
-- June 2022：Third Prize in the 13th Nanwei Cup Mathematical Mathematical Contest in Modeling<br>
+- December, 2018: **Champion** of **2018 Champion of Formula Student Autonomous China**<br> Member of the perception group
+- November, 2018: **First prize** (Beijing Division in Group A) in the 2018 National College Student Mathematics Competition organized by the Higher Education Press Cup. <br> Team leader
+- November, 2017: **First prize** (Beijing Division in Group A) in the 2017 National College Student Mathematics Competition organized by the Higher Education Press Cup. <br> Team leader
 
 ## Honors
 
-- Aug 2023：FEPG Scholarship (Top 0.5%)<br>Funded by Fujian Energy Petrochemical Group (FEPG)
-- May 2023：XiamenAir Scholarship (Top 1%)<br>Funded by Xiamen Airline, 30 students each year
-- May 2023：Outstanding Student Leaders of FZU
-- May 2021：Merit Student of Fuzhou University
-- July 2023：*Nomination for Baosteel Scholarship*
-- Sep 2022：*Nomination for China National Scholarship*
-- June 2022：*Nomination for China Telecom Scholarship*<br>
+- July, 2023: **Outstanding Thesis Award (Top 5%)**<br>Awarded by the Degree Evaluation Committee of Beihang University
+- July, 2023: **Excellent Master Graduate (Top 5%)**<br>Awarded by Beihang University
+- October, 2022: **Outstanding Communist Youth League member**<br>Awarded by Graduate Student Committee of the Communist Youth League of Beihang University
 
 ## Services
 
-- Dec 2023 - Present：AAAI Student Membership
-- Sep 2022 - Present：IEEE Student Membership
-- Sep 2022 - Present：CAAI Student Membership
-- April 2022：**Top 10 Best Volunteers (Only 10/30000)** of Fuzhou University
-- Sep 2021 - Sep 2022：Deputy President of Volunteer Department, Youth League Committee of FZU
-- July 2021：Outstanding volunteer at 44th session of the World Heritage Committee
-- April 2021：Outstanding volunteer at 4th Digital China Summit<br>
+- January, 2024 - Present: IEEE Student Membership
+- September, 2021 - September, 2022: **Deputy President** of Academic Department, School of Automation Science and Electrical Engineering of Beihang University
