@@ -48,6 +48,6 @@ I am currently engaged in research that centers around **deep learning-based ano
 
 ## News and Updates
 
-- **August, 2023**：<font color='red'><strong>[Exciting news!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors:rocket:🎉🎉:rocket:!!!
+- **August, 2023**：<font color='red'><strong>[Exciting news!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors🚀🎉🎉🚀!!!
 
 <br>

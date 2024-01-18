@@ -31,4 +31,3 @@ title: Hobbies
 
 <br>Games offer me an extraordinary avenue to escape from the demands of everyday life. Within the gaming realm, I have the freedom to immerse myself completely in the adrenaline-fueled excitement of shooting games, relish the boundless possibilities of sandbox games, or indulge in the captivating narratives of story-driven games. Gaming provides me with a precious respite from the relentless pace of the real world. Every weekend, I carve out **several hours** to explore a plethora of new games, cherishing the unique experiences they offer.
 
-

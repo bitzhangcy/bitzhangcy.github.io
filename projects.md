@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Presentations
+permalink: /projects/index.html
+title: Projects
 ---
 
 Latest Update: 18th January, 2024
