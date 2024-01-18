@@ -10,13 +10,10 @@ owner:
   avatar: cyz.jpg
   bio: Stay Hungry Stay Foolish
   email: bitzhangcy@gmail.com
-  #cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
   #twitter: lancecai2002
   github: bitzhangcy
   linkedin: bitzhangcy
   scholar: https://scholar.google.com/citations?user=0hXn5p8AAAAJ
-  #bilibili: 594030035
   #researchgate: https://www.researchgate.net/profile/Hanlin-Cai
   zhihu: https://www.zhihu.com/people/ji-e-de-sheng-shi
   # facebook: caihanlin2002
@@ -44,6 +41,8 @@ links:
     url: /awards/
   - title: CV
     url: /cv/
+  - title: Projects
+    url: /projects/
   - title: Presentations
     url: /presentations/
   - title: Personal Blogs
