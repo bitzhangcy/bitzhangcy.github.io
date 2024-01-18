@@ -11,4 +11,4 @@ Latest Update: 18th January, 2024
 
 ## Curriculum Vitae (Full)
 
-{% pdf "https://chunyangzhang.com/file/CV-ChunyangZhang-UNSW.pdf" %}
+<embed src="https://chunyangzhang.com/file/CV-ChunyangZhang-UNSW.pdf" type="application/pdf" width="100%" height="1000px" />

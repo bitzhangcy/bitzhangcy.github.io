@@ -12,8 +12,8 @@ title: Personal Blogs
 
 ### 2023
 
-- [中县干部——中国基层政治制度](https://chunyangzhang.com/22lqdtbhb)
+- [中县干部——中国基层政治制度](https://chunyangzhang.com/blogs/23cccgps)
 
 ### 2022
 
-- [晚清风云——喋血黄龙旗](https://chunyangzhang.com/blogs/23cccgps)
+- [晚清风云——喋血黄龙旗](https://chunyangzhang.com/blogs/22lqdtbhb)

@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: 17th January, 2024
+Latest Update: 18th January, 2024
 
 ---
 
