@@ -8,23 +8,21 @@ Latest Update: 18th January, 2024
 
 ---
 
-
 ## Talk
 
 - Coming soon! 🚀🚀
 
-  <br>
 
-  
-## Conference Oral Talk
+---
+
+## Conference Oral
 
 - Coming soon! 🚀🚀
 
-  <br>
 
+---
 
 ## Poster
 
 - Coming soon! 🚀🚀
 
-  <br>

@@ -4,11 +4,9 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-Latest Update: 17th January, 2024 
-
+Latest Update: 18th January, 2024 
 
 ---
-
 
 ## Scholarships
 
@@ -17,19 +15,25 @@ Latest Update: 17th January, 2024
 - September, 2017 and September, 2019: **National Encouragement Scholarship** (&yen; 5000)<br>One of the highest undergraduate awards at Beijing Institute of Technology
 - September, 2016 - June, 2020: **First Class Undergraduate Fellowship** (&yen; 1100 each term) <br>Top 5% of undergraduate are awarded at Beihang University.
 
+---
+
 ## Competitions
 
 - December, 2018: **Champion** of **2018 Champion of Formula Student Autonomous China**<br> Member of the perception group
-- November, 2018: **First prize** (Beijing Division in Group A) in the 2018 National College Student Mathematics Competition organized by the Higher Education Press Cup. <br> Team leader
-- November, 2017: **First prize** (Beijing Division in Group A) in the 2017 National College Student Mathematics Competition organized by the Higher Education Press Cup. <br> Team leader
+- November, 2018: **First prize** (Beijing Division in Group A) in the 2018 National College Student Mathematics Competition Organized by the Higher Education Press Cup. <br> Team leader
+- November, 2017: **First prize** (Beijing Division in Group A) in the 2017 National College Student Mathematics Competition Organized by the Higher Education Press Cup. <br> Team leader
+
+---
 
 ## Honors
 
 - July, 2023: **Outstanding Thesis Award (Top 5%)**<br>Awarded by the Degree Evaluation Committee of Beihang University
-- July, 2023: **Excellent Master Graduate (Top 5%)**<br>Awarded by Beihang University
-- October, 2022: **Outstanding Communist Youth League member**<br>Awarded by Graduate Student Committee of the Communist Youth League of Beihang University
+- July, 2023: **Excellent Master Graduate (Top 5%)**<br>Honored by Beihang University
+- October, 2022: **Outstanding Communist Youth League member**<br>Endorsed by Graduate Student Committee of the Communist Youth League at Beihang University
+
+---
 
 ## Services
 
 - January, 2024 - Present: IEEE Student Membership
-- September, 2021 - September, 2022: **Deputy President** of Academic Department, School of Automation Science and Electrical Engineering of Beihang University
+- September, 2021 - September, 2022: **Deputy President** of Academic Department, School of Automation Science and Electrical Engineering at Beihang University

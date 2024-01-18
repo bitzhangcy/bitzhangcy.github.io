@@ -6,28 +6,63 @@ title: Hobbies
 
 # Hobbies
 
+---
+
 ## Fitness
+<div>
+<img src="/images/fitness.jpg">
+</div>
+I chose fitness as my hobby for its excellence and efficiency. Fitness keeps me healthy, fosters discipline, and maximizes results in less time. Being part of a like-minded community inspires and motivates me to reach new heights. Currently, I diligently adhere to a routine of visiting the gym **five times a week**.
 
-<br>I chose fitness as my hobby for its excellence and efficiency. By embracing cutting-edge trends and techniques, I constantly challenge myself and push my limits. Fitness keeps me healthy, fosters discipline, and maximizes results in less time. Being part of a like-minded community inspires and motivates me to reach new heights. Fitness represents the pinnacle of excellence and efficiency, allowing me to continually challenge myself and connect with others who share my passion. Currently, Currently, I diligently adhere to a routine of visiting the gym **five times a week**.
-
+---
 
 ## Cycling
+<div>
+<img src="/images/giant.jpg">
+</div>
+I chose cycling as my hobby for multiple reasons. It lets me explore nature, stay fit, relieve stress, and connect with a supportive community. Typically, I go for a weekly long ride.
 
-<br>I chose cycling as my hobby for several reasons. Firstly, it allows me to explore nature and experience freedom. Cycling through beautiful landscapes brings joy and a unique perspective. Secondly, it helps me stay physically fit and maintain a healthy lifestyle. Cycling is a low-impact exercise that improves cardiovascular health and strengthens muscles. Moreover, it serves as a stress-reliever, clearing my mind and providing a peaceful escape. Lastly, cycling connects me with a supportive community of like-minded individuals. In conclusion, cycling brings joy, keeps me fit, relieves stress, and connects me with a supportive community.
+---
 
 ## History
 
-<br>China, with its millennia-spanning history, is an ancient nation that deeply captivates me. The profound tapestry of its historical narrative enthralls me, as I witness events unfolding around us that have echoed throughout history, often resulting in varied outcomes. Moreover, delving into history allows me to grasp how individuals' perspectives and interpretations of the same phenomena diverge due to their distinct environments and life experiences. Chinese history abounds with the sagacity of sages and offers limitless enjoyment. My research primarily focuses on the pivotal epochs of the **Five Dynasties**, **Ming Dynasty**, and **Late Qing Dynasty**.
+<br>China's captivating millennia-spanning history deeply intrigues me. Exploring its historical narrative reveals how events echo throughout time, shaping diverse outcomes. Understanding different perspectives and interpretations based on unique environments and life experiences is also fascinating. I particularly research the **Five Dynasties**, **Ming Dynasty**, and **Late Qing Dynasty**.
+
+
+---
 
 ## Photography
+<div class="box">
+<div class="third">
+<div><img src="/images/phone.jpg"></div>
+<div><img src="/images/phtwo.jpg"></div>
+<div><img src="/images/phthree.jpg"></div>
+</div>
+<div class="third">
+<div><img src="/images/phfour.jpg"></div>
+<div><img src="/images/phfive.jpg"></div>
+<div><img src="/images/phsix.jpg"></div>
+</div>
+<div class="third">
+<div><img src="/images/phseven.jpg"></div>
+<div><img src="/images/pheight.jpg"></div>
+<div><img src="/images/phnine.jpg"></div>
+</div>
+</div>
+We live in a dynamic world where each second reveals fleeting or lasting landscapes. Photography captures the beauty of the present, offering delight to all. With a passion for photography, I capture fleeting moments using a **Xiaomi 13 Ultra**, but I aim to upgrade to **a professional camera** to enhance my skills.
 
-<br>We reside in a dynamic and kaleidoscopic world, where each passing second unveils distinctive landscapes that may exist fleetingly or stand the test of time. It is a stroke of fortune to behold the captivating beauty of the present moment, and photography serves as the medium through which we can immortalize this splendor, offering enduring delight to all of humanity. With a profound passion for photography, I am able to seize the fleeting moments that shape my life. Presently, I utilize a Xiaomi 13 Ultra as my photographic tool, but I aspire to acquire a professional camera in the near future, aiming to elevate my skills to new heights.
+
+---
 
 ## Reading
 
-<br>Reading is a source of immense pleasure for me, offering a harmonious blend of engagement with the world and an escape from it. When I delve into non-fiction genres like economics, politics, or history, I gain valuable insights that guide me in navigating life's intricacies. Conversely, when I immerse myself in the realm of fiction, be it through novels, literature, or essays, books become a refuge where I can momentarily transcend the realities of existence. My love for reading runs deep, as it grants me a fresh perspective and empowers me to shape my own life. To nurture this passion, I dedicate **five hours** each week to indulging in the written word.
+<br>Reading brings immense pleasure, offering engagement with the world and an escape from it. Non-fiction genres provide valuable insights for navigating life, while fiction serves as a refuge from reality. I'm passionate about **Chinese history** and **fiction**, reading **five times a week**.
+
+---
 
 ## PC Games
-
-<br>Games offer me an extraordinary avenue to escape from the demands of everyday life. Within the gaming realm, I have the freedom to immerse myself completely in the adrenaline-fueled excitement of shooting games, relish the boundless possibilities of sandbox games, or indulge in the captivating narratives of story-driven games. Gaming provides me with a precious respite from the relentless pace of the real world. Every weekend, I carve out **several hours** to explore a plethora of new games, cherishing the unique experiences they offer.
+<div>
+<img src="/images/cod.jpg">
+</div>
+Games provide an escape from everyday life. I enjoy shooting games, sandbox games, and story-driven games. Each weekend, I spend **several hours** exploring new games and cherishing unique experiences.
 
