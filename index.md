@@ -12,7 +12,7 @@ Chunyang Zhang is a first-year Ph.D. student specializing in **Computer Science*
 
 If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*bitzhangcy[at]gmail[dot]com*
 
----
+<hr>
 
 ## Academic Background
 
@@ -28,7 +28,7 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
     - School of Mechatronics Engineering
     - Beijing Institute of Technology, Beijing, China
 
----
+<hr>
 
 ## Research Interests
 
@@ -42,7 +42,7 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 
 I am currently engaged in research that centers around **deep learning-based anomaly detection** across diverse data types such as tabular, time series, graph network, image, and video. Additionally, I am exploring the development of **safe reinforcement learning** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
 
----
+<hr>
 
 ## News and Updates
 

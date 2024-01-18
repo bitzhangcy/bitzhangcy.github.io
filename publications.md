@@ -6,7 +6,7 @@ title: Publications
 
 Latest Update: 18th January, 2024
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Journal Papers
 
@@ -20,8 +20,8 @@ Latest Update: 18th January, 2024
 
 - [Time-Delay Luenberger Observer Design for Sliding Mode Control of Nonlinear Markovian Jump Systems via Event-Triggered Mechanism](https://www.mdpi.com/2075-1702/9/11/259)<br>*Gradate Research.*<br>*Min Cheng, **Chunyang Zhang**, Jin Qiu, Zhengtian Wu, and Qing Gao*<br>**Machines**<br>**DOI:** [https://doi.org/10.3390/machines9110259](https://doi.org/10.3390/machines9110259) <br>9(11): 259. October, 2021.
 
----
-  
+<hr size="5" width="100%" color="#808080" align="center" noshade>
+
 ## Conference Papers
 
 - [Dynamic Sliding-Mode Control for Piecewise Affine Systems](https://ieeexplore.ieee.org/abstract/document/9326817/)<br>*Undergraduate Research.*<br>***Chunyang Zhang****, Qing Gao, Kexin Liu, and Jinhu Lü*<br>The 2020 Chinese Automation Congress<br>Shanghai, China. November, 2020.
@@ -32,19 +32,19 @@ Latest Update: 18th January, 2024
 
 - [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Gradate Research.*<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>The2023 42nd Chinese Control Conference<br>Tianjin, China. July, 2023.<br>
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Working Manuscripts
 
 - Coming soon! 🚀
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Master Thesis
 
 - Research on Intelligent Control Strategies for Complex Manufacturing Plants via Continuum Models<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Qing Gao and Prof. Dr. Jinhu Lü*). Master Research Thesis.<br>Two journal papers published in IEEE Transactions on Automation Science and Engineering and Information Science; Two Chinese research papers accepted by Control Theory and Application; Three conference papers presented at Chinese Control Conference and Chinese Automation Congress.
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Undergraduate Thesis
 

@@ -6,7 +6,7 @@ title: Hobbies
 
 # Hobbies
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Fitness
 <div>
@@ -14,7 +14,7 @@ title: Hobbies
 </div>
 I chose fitness as my hobby for its excellence and efficiency. Fitness keeps me healthy, fosters discipline, and maximizes results in less time. Being part of a like-minded community inspires and motivates me to reach new heights. Currently, I diligently adhere to a routine of visiting the gym **five times a week**.
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Cycling
 <div>
@@ -22,14 +22,14 @@ I chose fitness as my hobby for its excellence and efficiency. Fitness keeps me 
 </div>
 I chose cycling as my hobby for multiple reasons. It lets me explore nature, stay fit, relieve stress, and connect with a supportive community. Typically, I go for a weekly long ride.
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## History
 
 <br>China's captivating millennia-spanning history deeply intrigues me. Exploring its historical narrative reveals how events echo throughout time, shaping diverse outcomes. Understanding different perspectives and interpretations based on unique environments and life experiences is also fascinating. I particularly research the **Five Dynasties**, **Ming Dynasty**, and **Late Qing Dynasty**.
 
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Photography
 <div class="box">
@@ -51,18 +51,16 @@ I chose cycling as my hobby for multiple reasons. It lets me explore nature, sta
 </div>
 We live in a dynamic world where each second reveals fleeting or lasting landscapes. Photography captures the beauty of the present, offering delight to all. With a passion for photography, I capture fleeting moments using a **Xiaomi 13 Ultra**, but I aim to upgrade to **a professional camera** to enhance my skills.
 
-
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## Reading
 
 <br>Reading brings immense pleasure, offering engagement with the world and an escape from it. Non-fiction genres provide valuable insights for navigating life, while fiction serves as a refuge from reality. I'm passionate about **Chinese history** and **fiction**, reading **five times a week**.
 
----
+<hr size="5" width="100%" color="#808080" align="center" noshade>
 
 ## PC Games
 <div>
 <img src="/images/cod.jpg">
 </div>
 Games provide an escape from everyday life. I enjoy shooting games, sandbox games, and story-driven games. Each weekend, I spend **several hours** exploring new games and cherishing unique experiences.
-
