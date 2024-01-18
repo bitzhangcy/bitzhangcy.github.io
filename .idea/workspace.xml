@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f920e74b-b2c1-48b2-9d1a-c9834de4255b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blogs/22lqdtbhb.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blogs/23cccgps.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blogs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/links/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/disqus.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/disqus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/backup/page/backup/projects-backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/backup/page/backup/projects-backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/file/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/file/404/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/visitors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/visitors/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "G:/Website/bitzhangcy.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +60,8 @@
       <workItem from="1705475222088" duration="449000" />
       <workItem from="1705477502104" duration="104000" />
       <workItem from="1705547515382" duration="612000" />
+      <workItem from="1705548621674" duration="331000" />
+      <workItem from="1705549109637" duration="118000" />
     </task>
     <servers />
   </component>
