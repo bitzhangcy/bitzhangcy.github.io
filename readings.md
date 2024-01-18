@@ -6,7 +6,7 @@ title: Readings
 
 Latest Update: 18th January, 2024
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2024
 
@@ -27,7 +27,7 @@ Latest Update: 18th January, 2024
 
 - [《岗上的世纪》](https://book.douban.com/subject/1060272/)
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2023
 
@@ -55,7 +55,7 @@ Latest Update: 18th January, 2024
 - [《城乡中国》](https://book.douban.com/subject/27015840/)
     - 城乡之间这些差异形成的原因、后果以及可能的解决办法娓娓道来，试图增加对中国社会和经济的认识，找出沸沸扬扬的城镇化改革的症结，消除城乡之间的巨大分隔。
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2022
 
@@ -71,7 +71,7 @@ Latest Update: 18th January, 2024
 - [《魏晋之际的政治权力与家族网络》](https://book.douban.com/subject/26377063/)
     - 采取将政治史与家族史研究相结合的方式，一方面在政治史的脉络中探讨西晋权力结构从形成到崩溃的过程，另一方面考察魏晋大族之间的政治、婚姻、交往网络，探究这一网络在魏晋政治变局中发挥的作用。
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2021
 
@@ -84,7 +84,7 @@ Latest Update: 18th January, 2024
 - [《万历十五年》](https://book.douban.com/subject/25893465/)
     - 选取了明朝万历十五年（1587年）作为考察切入点，运用历史小说的叙事模式和传记体式的章节，通过对关键历史人物悲惨命运的描述，探析了晚明帝国走向衰落的深刻原因。
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2020
 
@@ -97,7 +97,7 @@ Latest Update: 18th January, 2024
 - [《中国历代政治得失》](https://book.douban.com/subject/30206893/)
     - 分别就中国汉、唐、宋、明、清五代的政府组织、百官职权、考试监察、财经赋税、兵役义务等种种政治制度作了提要勾玄的概观与比照，叙述因革演变，指陈利害得失。
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## 2020以前
 

@@ -6,7 +6,7 @@ title: Awards
 
 Latest Update: 18th January, 2024 
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Scholarships
 
@@ -15,7 +15,7 @@ Latest Update: 18th January, 2024
 - September, 2017 and September, 2019: **National Encouragement Scholarship** (&yen; 5000)<br>One of the highest undergraduate awards at Beijing Institute of Technology
 - September, 2016 - June, 2020: **First Class Undergraduate Fellowship** (&yen; 1100 each term) <br>Top 5% of undergraduate are awarded at Beihang University.
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Competitions
 
@@ -23,7 +23,7 @@ Latest Update: 18th January, 2024
 - November, 2018: **First prize** (Beijing Division in Group A) in the 2018 National College Student Mathematics Competition Organized by the Higher Education Press Cup. <br> Team leader
 - November, 2017: **First prize** (Beijing Division in Group A) in the 2017 National College Student Mathematics Competition Organized by the Higher Education Press Cup. <br> Team leader
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Honors
 
@@ -31,7 +31,7 @@ Latest Update: 18th January, 2024
 - July, 2023: **Excellent Master Graduate (Top 5%)**<br>Honored by Beihang University
 - October, 2022: **Outstanding Communist Youth League member**<br>Endorsed by Graduate Student Committee of the Communist Youth League at Beihang University
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Services
 

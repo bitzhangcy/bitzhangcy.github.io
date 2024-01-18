@@ -2,13 +2,13 @@
 
 Here is **Chunyang Zhang (Cedric, 张春阳)**. Here is my personal website. Feel free to contact and engage with me 🥰
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Update and News
 
 - **January 2024:**  My personal website have been implemented and deployed in [chunyangzhang.com](https://chunyangzhang.com)
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Statement
 

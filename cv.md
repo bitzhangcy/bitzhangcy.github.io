@@ -6,7 +6,7 @@ title: CV
 
 Latest Update: 18th January, 2024
 
-<hr size="5" width="100%" color="#808080" align="center" noshade>
+<div style="border-top: 4px solid gray;"></div>
 
 ## Curriculum Vitae (Full)
 
