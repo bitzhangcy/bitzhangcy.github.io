@@ -91,5 +91,5 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 baidu_tmid: bb1dff61b808abda6246f2d171d3c3f7
 
-plugins:
-  - jekyll-pdf-embed
+#plugins:
+  #- jekyll-pdf-embed
