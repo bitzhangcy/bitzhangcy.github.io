@@ -30,7 +30,7 @@ Latest Update: 18th January, 2024
 
 - [A Dynamic Robust Control Approach of Hyperbolic Nonlinear PDE Systems](https://ieeexplore.ieee.org/abstract/document/9901648)<br>*Gradate Research.*<br>*Wangbo Gao, **Chunyang Zhang**, Qing Gao, and Jinhu Lü*<br>The 2022 41st Chinese Control Conference<br>Hefei, China. July, 2022.<br>
 
-- [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Gradate Research.*<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>The2023 42nd Chinese Control Conference<br>Tianjin, China. July, 2023.<br>
+- [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Gradate Research.*<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>The 2023 42nd Chinese Control Conference<br>Tianjin, China. July, 2023.<br>
 
 
 ## Working Manuscripts
@@ -48,4 +48,4 @@ Latest Update: 18th January, 2024
 ## Undergraduate Thesis
 <div style="border-top: 4px solid gray;"></div>
 
-- Integral Sliding-Mode Controllers for Piecewise Linear Systems with Universality Discussion<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Kang Zhou and Prof. Dr. Qing Gao*). Final Year Project.<br>One journal paper has been published int the International Journal of Robust and Nonlinear Control, while another conference paper has been presented at the 39th Chinese Control Conference.
+- Integral Sliding-Mode Controllers for Piecewise Linear Systems with Universality Discussion<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Kang Zhou and Prof. Dr. Qing Gao*). Final Year Project.<br>One journal paper has been published in the International Journal of Robust and Nonlinear Control, while another conference paper has been presented at the 39th Chinese Control Conference.

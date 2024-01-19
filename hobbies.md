@@ -22,7 +22,7 @@ I chose fitness as my hobby for its excellence and efficiency. Fitness keeps me 
 <div>
 <img src="/images/giant.jpg">
 </div>
-I chose cycling as my hobby for multiple reasons. It lets me explore nature, stay fit, relieve stress, and connect with a supportive community. Typically, I go for a weekly long ride.
+I chose cycling as my hobby for multiple reasons. It lets me explore nature, stay fit, relieve stress, and connect with a supportive community. Typically, I go for a **weekly long ride**.
 
 
 ## History

@@ -104,7 +104,7 @@ Latest Update: 18th January, 2024
 <div style="border-top: 4px solid gray;"></div>
 
 - [《张居正》](https://book.douban.com/subject/34432625/)
-    - 对张居正这位毁誉参半的首府悉心研究，塑造出这位政治家的形象。
+    - 对张居正这位毁誉参半的首辅悉心研究，塑造出这位政治家的形象。
 
 - [《邓小平时代》](https://book.douban.com/subject/20424526/)
     - 对邓小平跌宕起伏的一生以及中国惊险崎岖的改革开放之路的全景式描述。
