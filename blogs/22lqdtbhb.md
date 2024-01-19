@@ -150,22 +150,22 @@
 
 ## <font face = STKaiti >晚清史推荐阅读书籍：</font>
 
-- **<font face = STKaiti color = #0182FC size = 4>唐德刚《晚清七十年》《袁氏当国》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">唐德刚《晚清七十年》《袁氏当国》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>徐中约《中国近代史》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">徐中约《中国近代史》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>蒋廷黻《中国近代史》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">蒋廷黻《中国近代史》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>费正清《剑桥晚清中国史》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">费正清《剑桥晚清中国史》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>梁启超《李鸿章传》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">梁启超《李鸿章传》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>谭伯牛《战天京》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">谭伯牛《战天京》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>高阳《慈禧全传》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">高阳《慈禧全传》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>茅海建《天朝的崩溃》《近代的尺度：两次鸦片战争军事与外交》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">茅海建《天朝的崩溃》《近代的尺度：两次鸦片战争军事与外交》</span>
 
-- **<font face = STKaiti color = #0182FC size = 4>杨天石《从帝制走向共和 》</font>**
+- <span style="font-family: STKaiti; font-size: 18px; color: #0182FC; font-weight: bold;">杨天石《从帝制走向共和 》</span>
 
 <p align="right"><strong><font face = STKaiti size = 4>2022年夏</font></strong></p>
