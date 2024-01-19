@@ -6,14 +6,16 @@ title: Readings
 
 Latest Update: 18th January, 2024
 
-<div style="border-top: 4px solid gray;"></div>
+
 
 ## 2024
-
+<div style="border-top: 4px solid gray;"></div>
+<div style="height: 20px;"></div>
 ### 一月
+<div style="border-top: 3px solid gray;"></div>
 
 - [《慈禧全传》](https://book.douban.com/subject/26305373/)
-    - 高阳以小说形式全景式描绘晚清社会的一部皇皇巨著，共十册。全书以主要人物慈禧的活动为主线，从咸丰皇帝驾崩热河，慈禧联合恭王，自肃顺为首的顾命大臣手中夺取大权，垂帘听政，写到慈禧去世，溥仪继位，前后跨越四十多年。
+    - 以小说形式全景式描绘晚清社会的一部皇皇巨著，共十册。全书以主要人物慈禧的活动为主线，从咸丰皇帝驾崩热河，慈禧联合恭王，自肃顺为首的顾命大臣手中夺取大权，垂帘听政，写到慈禧去世，溥仪继位，前后跨越四十多年。
 
 - [《当代中国的中央地方关系》](https://book.douban.com/subject/36500923/)
     - 在大量经验调查和理论研究的基础上，主要考察中央地方关系在当代中国的变迁过程及其与城镇化和社会发展方面的联系，主要关注了八十年代的财政包干制和九十年代的分税制。
@@ -27,9 +29,9 @@ Latest Update: 18th January, 2024
 
 - [《岗上的世纪》](https://book.douban.com/subject/1060272/)
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## 2023
+<div style="border-top: 4px solid gray;"></div>
 
 - [《中国国家治理的制度逻辑》](https://book.douban.com/subject/26901114/)
     - 主要沿着两条脉络进行探讨：一是中央权威与地方政府之间的关系，这体现在各级政府体制的制度设施和行为方式；一是国家与民众之间的关系，这体现在国家与社会群体的相互影响上。
@@ -55,9 +57,9 @@ Latest Update: 18th January, 2024
 - [《城乡中国》](https://book.douban.com/subject/27015840/)
     - 城乡之间这些差异形成的原因、后果以及可能的解决办法娓娓道来，试图增加对中国社会和经济的认识，找出沸沸扬扬的城镇化改革的症结，消除城乡之间的巨大分隔。
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## 2022
+<div style="border-top: 4px solid gray;"></div>
 
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 。对隋唐五代时期我国封建社会在政治、经济、军事、文化、对外交流、民族交融等方面全面发展的盛况作了详尽的阐述，以较多篇幅叙述了隋唐时代空前繁荣的文化思想和文学艺术。
@@ -71,9 +73,9 @@ Latest Update: 18th January, 2024
 - [《魏晋之际的政治权力与家族网络》](https://book.douban.com/subject/26377063/)
     - 采取将政治史与家族史研究相结合的方式，一方面在政治史的脉络中探讨西晋权力结构从形成到崩溃的过程，另一方面考察魏晋大族之间的政治、婚姻、交往网络，探究这一网络在魏晋政治变局中发挥的作用。
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## 2021
+<div style="border-top: 4px solid gray;"></div>
 
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 对隋唐五代时期我国封建社会在政治、经济、军事、文化、对外交流、民族交融等方面全面发展的盛况作了详尽的阐述，以较多篇幅叙述了隋唐时代空前繁荣的文化思想和文学艺术。
@@ -84,9 +86,9 @@ Latest Update: 18th January, 2024
 - [《万历十五年》](https://book.douban.com/subject/25893465/)
     - 选取了明朝万历十五年（1587年）作为考察切入点，运用历史小说的叙事模式和传记体式的章节，通过对关键历史人物悲惨命运的描述，探析了晚明帝国走向衰落的深刻原因。
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## 2020
+<div style="border-top: 4px solid gray;"></div>
 
 - [《皇权与绅权》](https://book.douban.com/subject/10732589/)
     - 从魏晋门阀制度到北宋考试制度，再到元朝之后的军法治臣，一步一步将绅权与皇权从共存、共治到降而为奴役的过程剥丝抽茧揭露无遗。
@@ -97,9 +99,9 @@ Latest Update: 18th January, 2024
 - [《中国历代政治得失》](https://book.douban.com/subject/30206893/)
     - 分别就中国汉、唐、宋、明、清五代的政府组织、百官职权、考试监察、财经赋税、兵役义务等种种政治制度作了提要勾玄的概观与比照，叙述因革演变，指陈利害得失。
 
-<div style="border-top: 4px solid gray;"></div>
 
-## 2020以前
+## 2010--2019
+<div style="border-top: 4px solid gray;"></div>
 
 - [《张居正》](https://book.douban.com/subject/34432625/)
     - 对张居正这位毁誉参半的首府悉心研究，塑造出这位政治家的形象。

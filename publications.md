@@ -6,9 +6,9 @@ title: Publications
 
 Latest Update: 18th January, 2024
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Journal Papers
+<div style="border-top: 4px solid gray;"></div>
 
 - [Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models](https://ieeexplore.ieee.org/document/10227338)<br>*Gradate Research.*<br>***Chunyang Zhang****, Qing Gao, Michael V. Basin, Jinhu Lü, and Hao Liu*<br>**IEEE Transactions on Automation Science and Engineering**<br>**DOI:** [10.1109/TASE.2023.3305308](10.1109/TASE.2023.3305308)<br>Early Access. August, 2023.
 
@@ -20,9 +20,9 @@ Latest Update: 18th January, 2024
 
 - [Time-Delay Luenberger Observer Design for Sliding Mode Control of Nonlinear Markovian Jump Systems via Event-Triggered Mechanism](https://www.mdpi.com/2075-1702/9/11/259)<br>*Gradate Research.*<br>*Min Cheng, **Chunyang Zhang**, Jin Qiu, Zhengtian Wu, and Qing Gao*<br>**Machines**<br>**DOI:** [https://doi.org/10.3390/machines9110259](https://doi.org/10.3390/machines9110259) <br>9(11): 259. October, 2021.
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Conference Papers
+<div style="border-top: 4px solid gray;"></div>
 
 - [Dynamic Sliding-Mode Control for Piecewise Affine Systems](https://ieeexplore.ieee.org/abstract/document/9326817/)<br>*Undergraduate Research.*<br>***Chunyang Zhang****, Qing Gao, Kexin Liu, and Jinhu Lü*<br>The 2020 Chinese Automation Congress<br>Shanghai, China. November, 2020.
 
@@ -32,20 +32,20 @@ Latest Update: 18th January, 2024
 
 - [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Gradate Research.*<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>The2023 42nd Chinese Control Conference<br>Tianjin, China. July, 2023.<br>
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Working Manuscripts
+<div style="border-top: 4px solid gray;"></div>
 
 - Coming soon! 🚀
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Master Thesis
+<div style="border-top: 4px solid gray;"></div>
 
 - Research on Intelligent Control Strategies for Complex Manufacturing Plants via Continuum Models<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Qing Gao and Prof. Dr. Jinhu Lü*). Master Research Thesis.<br>Two journal papers published in IEEE Transactions on Automation Science and Engineering and Information Science; Two Chinese research papers accepted by Control Theory and Application; Three conference papers presented at Chinese Control Conference and Chinese Automation Congress.
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Undergraduate Thesis
+<div style="border-top: 4px solid gray;"></div>
 
 - Integral Sliding-Mode Controllers for Piecewise Linear Systems with Universality Discussion<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Kang Zhou and Prof. Dr. Qing Gao*). Final Year Project.<br>One journal paper has been published int the International Journal of Robust and Nonlinear Control, while another conference paper has been presented at the 39th Chinese Control Conference.

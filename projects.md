@@ -6,20 +6,20 @@ title: Projects
 
 Latest Update: 18th January, 2024
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Deep Learning
+<div style="border-top: 4px solid gray;"></div>
 
 - Coming soon! 🚀🚀
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Safe Reinforcement Learning
+<div style="border-top: 4px solid gray;"></div>
 
 - Coming soon! 🚀🚀
 
-<div style="border-top: 4px solid gray;"></div>
 
 ## Distributed Optimization
+<div style="border-top: 4px solid gray;"></div>
 
 - Coming soon! 🚀🚀
