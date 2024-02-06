@@ -12,9 +12,9 @@ layout: page
 
 Here is **Chunyang Zhang (Cedric, 张春阳)**.
 
-Chunyang Zhang is a first-year Ph.D. student specializing in **Computer Science** at the School of Engineering and Information Technology, University of New South Wales. He completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on advanced machine learning algorithms and modern optimization techniques under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) and [Dr. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo).
+Chunyang Zhang is a first-year Ph.D. student specializing in **Computer Science** at the School of Engineering and Information Technology, University of New South Wales. He completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on advanced machine learning algorithms and modern optimization techniques for my Ph.D. under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) and [Dr. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo).
 
-If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*bitzhangcy[at]gmail[dot]com*
+If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*chunyang[dot]zhang[at]unsw[dot]edu[dot]au*
 
 
 ## Academic Background
@@ -51,4 +51,6 @@ I am currently engaged in research that centers around **deep learning-based ano
 ## News and Updates
 <div style="border-top: 4px solid gray;"></div>
 <div style="height: 10px;"></div>
+- **February, 2024**：<font color='red'><strong>[New journey!]</strong></font> I've successfully enrolled in the doctoral program in Computer Science at UNSW.💐😝💐!!!
+
 - **August, 2023**：<font color='red'><strong>[Exciting news!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors🚀🎉🎉🚀!!!
