@@ -29,7 +29,7 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 - **September, 2020 - June, 2023:** Master of Engineering in Control Science and Engineering
     - School of Automation Science and Electrical Engineering
     - Beihang University, Beijing, China
-- **August, 2016 - June, 2020:** Bachelor of Science in Control Science and Engineering
+- **August, 2016 - June, 2020:** Bachelor of Science in Weapon Science and Technology
     - School of Mechatronics Engineering
     - Beijing Institute of Technology, Beijing, China
 
