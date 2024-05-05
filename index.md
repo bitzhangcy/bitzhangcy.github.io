@@ -40,7 +40,7 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 - Deep Learning
 - Distributed Optimization
 - Anomaly Detection
-- Probabilistic Generative Model
+- Diffusion Model based Text to Image
 - Safe Reinforcement Learning
 - Physics Informed Machine Learning
 - Intelligent Control Theory

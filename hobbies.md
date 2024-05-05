@@ -51,7 +51,7 @@ China's captivating millennia-spanning history deeply intrigues me. Exploring it
 <div><img src="/images/phnine.jpg"></div>
 </div>
 </div>
-We live in a dynamic world where each second reveals fleeting or lasting landscapes. Photography captures the beauty of the present, offering delight to all. With a passion for photography, I capture fleeting moments using a **Xiaomi 13 Ultra**, but I aim to upgrade to **a professional camera** to enhance my skills.
+We live in a dynamic world where each second reveals fleeting or lasting landscapes. Photography captures the beauty of the present, offering delight to all. With a passion for photography, I capture fleeting moments using a **Xiaomi 14 Ultra**, but I aim to upgrade to **a professional camera** to enhance my skills.
 
 
 ## Reading
