@@ -51,9 +51,12 @@ I am currently engaged in research that centers around **deep learning-based ano
 ## News and Updates
 <div style="border-top: 4px solid gray;"></div>
 <div style="height: 10px;"></div>
-- **May, 2024**：<font color='blue'><strong>[New journey!]</strong></font> I have successfully earned the Certificate of Completion with Merit from the Graduate Teaching Training Program at UNSW.🥳🥳🥳!!!
+- **May, 2024**：<font color='green'><strong>[Stepping Forward!]</strong></font> I have successfully earned the Certificate of Completion with Merit from the Graduate Teaching Training Program at UNSW.🥳🥳🥳!!!
 
 <div style="height: 10px;"></div>
-- **February, 2024**：<font color='red'><strong>[New journey!]</strong></font> I've successfully enrolled in the doctoral program in Computer Science at UNSW.💐😝💐!!!
 
-- **August, 2023**：<font color='red'><strong>[Exciting news!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors🚀🎉🎉🚀!!!
+- **February, 2024**：<font color='red'><strong>[New Journey!]</strong></font> I've successfully enrolled in the doctoral program in Computer Science at UNSW.💐😝💐!!!
+
+<div style="height: 10px;"></div>
+
+- **August, 2023**：<font color='purple'><strong>[Exciting News!]</strong></font> My research paper, **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models,"** has been accepted by the **IEEE Transactions on Automation Science and Engineering**. It's my first Trans in the past four years. Thank you to all my co-authors and valuable contributors🚀🎉🎉🚀!!!
