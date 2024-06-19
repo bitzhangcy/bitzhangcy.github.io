@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-Latest Update: 18th January, 2024 
+Latest Update: 6th June, 2024 
 
 
 ## Scholarships
@@ -36,4 +36,3 @@ Latest Update: 18th January, 2024
 <div style="border-top: 4px solid gray;"></div>
 
 - January, 2024 - Present: IEEE Student Membership
-- September, 2021 - September, 2022: **Deputy President** of Academic Department, School of Automation Science and Electrical Engineering at Beihang University

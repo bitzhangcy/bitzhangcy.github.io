@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: 18th January, 2024
+Latest Update: 6th June, 2024
 
 
 ## Journal Papers
@@ -42,10 +42,10 @@ Latest Update: 18th January, 2024
 ## Master Thesis
 <div style="border-top: 4px solid gray;"></div>
 
-- Research on Intelligent Control Strategies for Complex Manufacturing Plants via Continuum Models<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Qing Gao and Prof. Dr. Jinhu Lü*). Master Research Thesis.<br>Two journal papers published in IEEE Transactions on Automation Science and Engineering and Information Science; Two Chinese research papers accepted by Control Theory and Application; Three conference papers presented at Chinese Control Conference and Chinese Automation Congress.
+- Research on Intelligent Control Strategies for Complex Manufacturing Plants via Continuum Models<br>***Chunyang Zhang*** (Supervisors: *Prof. Dr. Qing Gao and Prof. Dr. Jinhu Lü*). Master Research Thesis.<br>Two journal papers published in IEEE Transactions on Automation Science and Engineering and Information Science; Two Chinese research papers accepted by Control Theory and Application; Three conference papers presented at Chinese Control Conference and Chinese Automation Congress.
 
 
 ## Undergraduate Thesis
 <div style="border-top: 4px solid gray;"></div>
 
-- Integral Sliding-Mode Controllers for Piecewise Linear Systems with Universality Discussion<br>***Chunyang Zhang*** (Advisors: *Prof. Dr. Kang Zhou and Prof. Dr. Qing Gao*). Final Year Project.<br>One journal paper has been published in the International Journal of Robust and Nonlinear Control, while another conference paper has been presented at the 39th Chinese Control Conference.
+- Integral Sliding-Mode Controllers for Piecewise Linear Systems with Universality Discussion<br>***Chunyang Zhang*** (Supervisors: *Prof. Dr. Kang Zhou and Prof. Dr. Qing Gao*). Final Year Project.<br>One journal paper has been published in the International Journal of Robust and Nonlinear Control, while another conference paper has been presented at the 39th Chinese Control Conference.

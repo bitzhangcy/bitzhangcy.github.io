@@ -4,15 +4,12 @@ permalink: /readings/index.html
 title: Readings
 ---
 
-Latest Update: 18th January, 2024
+Latest Update: 6th June, 2024
 
 
 
 ## 2024
 <div style="border-top: 4px solid gray;"></div>
-<div style="height: 20px;"></div>
-### 一月
-<div style="border-top: 3px solid gray;"></div>
 
 - [《慈禧全传》](https://book.douban.com/subject/26305373/)
     - 以小说形式全景式描绘晚清社会的一部皇皇巨著，共十册。全书以主要人物慈禧的活动为主线，从咸丰皇帝驾崩热河，慈禧联合恭王，自肃顺为首的顾命大臣手中夺取大权，垂帘听政，写到慈禧去世，溥仪继位，前后跨越四十多年。
@@ -24,10 +21,16 @@ Latest Update: 18th January, 2024
     - 从财政的角度出发，以实地调研的具体案例为基础，对改革开放后中国中央-地方关系的权力变化和经济发展模型进行反思。
 
 - [《空间在时间里流淌》](https://book.douban.com/subject/10443508/)
+    - 讲述了作者的童年故事和成长经历，讲述文学之路，并从女性角度以细腻敏锐的笔触对社会及生活本质进行了探讨。
 
 - [《匿名》](https://book.douban.com/subject/26692133/)
+    - 通过交织的故事线描绘了城市生活中的人际关系与内心孤独。
 
 - [《岗上的世纪》](https://book.douban.com/subject/1060272/)
+    - 讲述了一个上海家族在一个世纪中的兴衰变迁，通过细腻的笔触展现了家庭成员之间复杂的情感关系与社会变革的影响。
+
+- [《文明的冲突与世界秩序的重建》](https://book.douban.com/subject/27203334/)
+    - 西方赢得世界不是通过其思想、宗教或是价值观，而是它们运用有组织的暴力方面的优势。西方人经常忘记这一点；非西方人却从未忘记。
 
 
 ## 2023
