@@ -4,7 +4,7 @@ permalink: /cv/index.html
 title: CV
 ---
 
-Latest Update: 6th June, 2024
+Latest Update: 12th February, 2025
 
 
 

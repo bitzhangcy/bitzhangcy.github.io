@@ -38,21 +38,19 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 <div style="border-top: 4px solid gray;"></div>
 <div style="height: 10px;"></div>
 - Diffusion Probabilistic Model
+- Controllable Human Motion Generation
 - Deep Learning based Anomaly Detection
 - Physics Informed Machine Learning
 - Distributed Optimization
-- Safe Reinforcement Learning
+- Deep Reinforcement Learning
 - Intelligent Control Theory
 
 
-I am currently engaged in research that centers around **diffusion probabilistic models** and **deep learning-based anomaly detection** across diverse data types such as tabular, time series, graph network, image, and video. Additionally, I am exploring the development of **deep safe reinforcement learning** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
+I am currently engaged in research that centers around **diffusion models** and **controllable human motions**. Additionally, I am exploring the development of **deep reinforcement learning** and **Intelligent Control Theory** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
 
 
 ## News and Updates
 <div style="border-top: 4px solid gray;"></div>
-<div style="height: 10px;"></div>
-- **May, 2024**：<font color='green'><strong>[Stepping Forward!]</strong></font> I earned the Certificate of Completion with Merit from the Graduate Teaching Training Program at UNSW.🥳🥳🥳!!!
-
 <div style="height: 10px;"></div>
 
 - **February, 2024**：<font color='red'><strong>[New Journey!]</strong></font> I enrolled in the doctoral program in Computer Science at UNSW.💐😝💐!!!
