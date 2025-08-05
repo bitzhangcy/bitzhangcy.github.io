@@ -12,7 +12,7 @@ layout: page
 
 Here is **Chunyang Zhang (Cedric, 张春阳)**.
 
-Chunyang Zhang completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on diffusion probabilistic models, advanced machine learning algorithms, and modern optimization techniques for my Ph.D. in **Computer Science** under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) and [Dr. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo) at the School of System and Computing, University of New South Wales.
+Chunyang Zhang completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on diffusion probabilistic models, advanced machine learning algorithms, and modern optimization techniques for my Ph.D. in **Computer Science** under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) at the School of System and Computing, University of New South Wales.
 
 If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*chunyang[dot]zhang[at]unsw[dot]edu[dot]au*
 
