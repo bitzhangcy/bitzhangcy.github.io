@@ -12,7 +12,7 @@ layout: page
 
 Here is **Chunyang Zhang (Cedric, 张春阳)**.
 
-Chunyang Zhang completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on diffusion probabilistic models, advanced machine learning algorithms, and modern optimization techniques for my Ph.D. in **Computer Science** under the supervision of [Prof. Dr. Daoyi Dong](https://researchers.anu.edu.au/researchers/dong-dx) at the School of System and Computing, University of New South Wales.
+Chunyang Zhang completed his Bachelor's degree in **Weapon Science and Technology** from Beijing Institute of Technology, Beijing, China, in 2020. He further pursued his Master's degree in **Control Science and Engineering** from Beihang University, Beijing, China, graduating in 2023. Currently, I am conducting research on generative models and modern optimization techniques for my Ph.D. in **Computer Science** under the supervision of [Prof. Dr. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and  [Prof. Dr. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo) at the School of System and Computing, University of New South Wales.
 
 If you're interested in collaborating or discussing any aspect of my work, please feel free to email me at <br>*chunyang[dot]zhang[at]unsw[dot]edu[dot]au*
 
@@ -21,9 +21,9 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 <div style="border-top: 4px solid gray;"></div>
 <div style="height: 10px;"></div>
 
-**<font color='red'>[Highlight]</font> I am seeking Ph.D. students who share similar research interests as me. If you are interested in potential collaboration, kindly reach out to me!**
+**<font color='red'>[Highlight]</font> I am seeking Ph.D. peers who share similar research interests as me. If you are interested in potential collaboration, kindly reach out to me!**
 
-- **January, 2024 - Present:** Ph.D. Student in Computer Science
+- **January, 2024 - Present:** Ph.D. Candidate in Computer Science
     - School of System and Computing
     - University of New South Wales, Canberra, Australia
 - **September, 2020 - June, 2023:** Master of Engineering in Control Science and Engineering
@@ -38,15 +38,14 @@ If you're interested in collaborating or discussing any aspect of my work, pleas
 <div style="border-top: 4px solid gray;"></div>
 <div style="height: 10px;"></div>
 - Diffusion Probabilistic Model
-- Controllable Human Motion Generation
-- Deep Learning based Anomaly Detection
 - Physics Informed Machine Learning
+- Deep Learning based Anomaly Detection
 - Distributed Optimization
 - Deep Reinforcement Learning
 - Intelligent Control Theory
 
 
-I am currently engaged in research that centers around **diffusion models** and **controllable human motions**. Additionally, I am exploring the development of **deep reinforcement learning** and **Intelligent Control Theory** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
+I am currently engaged in research that centers around **diffusion models**. Additionally, I am exploring the development of **physical informed machine learning** and **intelligent control theory** algorithms to ensure robust operation in various real-world applications. Furthermore, I am investigating **distributed optimization** techniques to tackle large-scale and complex practical problems. In essence, my goal is to leverage advanced machine learning technologies and modern optimization algorithms to expedite the deployment and enhancement of modern intricate scenarios.
 
 
 ## News and Updates
