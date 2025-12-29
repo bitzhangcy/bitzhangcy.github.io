@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /personal-blogs/index.html
-title: Personal Blogs
+permalink: /technical-blogs/index.html
+title: Technial Blogs
 ---
 
 

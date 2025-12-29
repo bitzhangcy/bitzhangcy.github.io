@@ -16,9 +16,9 @@ My goal is to leverage advanced deep learning (e.g., Diffusion Models, World Mod
 ---
 
 ## Education
-- **Ph.D. in Computer Science** | UNSW Canberra | 2024 – Present
-- **M.Eng. in Control Science & Engineering** | Beihang University | 2020 – 2023
-- **B.S. in Weapon Science & Technology** | Beijing Institute of Technology | 2016 – 2020
+- **Ph.D. in Computer Science**, UNSW Canberra <span style="float:right;">2024 – Present</span>
+- **M.Eng. in Control Science & Engineering**, Beihang University <span style="float:right;">2020 – 2023</span>
+- **B.S. in Weapon Science & Technology**, BIT <span style="float:right;">2016 – 2020</span>
 
 ---
 
