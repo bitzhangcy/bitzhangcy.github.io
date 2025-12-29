@@ -9,6 +9,10 @@ Latest Update: 21st October, 2025
 ## 2025
 <div style="border-top: 4px solid gray;"></div>
 
+- [《政治的人生》](https://book.douban.com/subject/2125296/)
+
+- [《美国反对美国》](https://book.douban.com/subject/1418776/)
+
 - [《祥瑞》](https://book.douban.com/subject/35519560/)
     - 无论是改制背后的统制经济思维，还是以严刑酷法约束执行的理念，无不透露出新朝在迈向儒家目标时，采取的是管制的办法，走的是秦制的老路。轰轰烈烈的新莽改制，也没能撼动甚至触及秦制最根本的三个要素：编户齐民、严刑酷法、文法吏。有些方面甚至还加剧了。
 

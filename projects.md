@@ -7,18 +7,17 @@ title: Projects
 Latest Update: 13th February, 2025
 
 
+
 ## Generative Models
 <div style="border-top: 4px solid gray;"></div>
 
 - Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers.🚀🚀
 
-- Noise Optimization via Chain of Thought of LLMs in Diffusion Models.🚀🚀
+- Training-free Consistent Synthesis and Editing in Diffusion Transformers.🚀🚀
 
+- Long Video synthesis.🚀🚀
 
-## Deep Reinforcement Learning
-<div style="border-top: 4px solid gray;"></div>
-
-- Safe Reinforcement Learning in Complex Industrial Scenarios! 🚀🚀
+- Reinforcement Learning for Long and Complex Scene Understanding.🚀🚀 
 
 
 ## Distributed Optimization
