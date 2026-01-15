@@ -9,6 +9,9 @@ Latest Update: 14th January, 2026
 ## 2026
 <div style="border-top: 4px solid gray;"></div>
 
+- [《Risks in China's Financial System》](https://www.annualreviews.org/content/journals/10.1146/annurev-financial-110716-032402)
+    - By reviewing China’s unique economic and financial systems, we argue that the widely held concerns about rising leverage and housing prices are unlikely to lead to an imminent financial crisis in China. Instead, we believe the ultimate risk lies with the efficiency of the financial system in allocating capital and supporting China's economic growth. In particular, a vicious cycle of distortions in the financial system may lower economic growth and exacerbate financial risks in the long run.
+
 - [《中国是部金融史2》](https://book.douban.com/subject/25840005/)
     - 以宋元明七百年的货币变迁为线索，梳理中国从金属货币走向纸币、又因财政与战争压力透支国家信用而回归金属货币体系（由铜币转向白银）的过程：交子起于民间却很快被官方接管，元明滥发纸币加速信用崩塌，最终促成银本位确立。作者论证清晰但立场鲜明，核心结论是权力缺乏约束时介入金融会压缩信用与创新空间，监督不可或缺。
 
