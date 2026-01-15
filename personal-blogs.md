@@ -19,7 +19,7 @@ title: Personal Blogs
 ### 2025
 <div style="border-top: 4px solid gray;"></div>
 
-- 中国游侠史(https://chunyangzhang.com/blogs/25zgyxs) in preparation🚀
+- [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs) in preparation🚀
 
 
 ### 2023
