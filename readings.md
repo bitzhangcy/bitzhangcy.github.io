@@ -9,6 +9,15 @@ Latest Update: 14th January, 2026
 ## 2026
 <div style="border-top: 4px solid gray;"></div>
 
+- [《王阳明：心学的力量》](https://book.douban.com/subject/34894698/)
+    - 全书系统讲述了王阳明从“少年立志”到成为有明一代立德、立功、立言“三不朽”第一人的波澜起伏的生命历程，展示了王阳明在“百死千难”中探索“圣人之道”、体悟“心性之理”、践行“亲民”“致良知”“知行合一”的心路历程，向读者展示了一个将“心学”改造为既是“修心”之学又是“行动”之学、不以君主之是非为是非而以“良知”之是非为是非、无论穷达皆有兼济天下之心的王阳明。
+
+- [《小岛经济学》](https://book.douban.com/subject/26985299/)
+    - 这个关于鱼、渔网、存钱、借钱的故事揭示了经济是如何运行的，映射出当今经济体制与政策暗藏的漏洞。希夫兄弟以机智幽默的手法阐释了经济增长的根源，贸易、储蓄及风险三者的重要性，滞胀的根源，利率的影响，政府的刺激机制、消费信贷的破坏性本质等问题。
+
+- [《国富论》](https://book.douban.com/subject/1261560/)
+    - 奠定了现代经济学的基石。他主张国民财富源于劳动而非金银，论证了分工是提高生产效率的关键，并提出“看不见的手”这一核心概念——即个人在自由市场中追求私利，会自发地促进社会整体繁荣，因此政府应减少干预，实行自由贸易。
+
 - [《Risks in China's Financial System》](https://www.annualreviews.org/content/journals/10.1146/annurev-financial-110716-032402)
     - By reviewing China’s unique economic and financial systems, we argue that the widely held concerns about rising leverage and housing prices are unlikely to lead to an imminent financial crisis in China. Instead, we believe the ultimate risk lies with the efficiency of the financial system in allocating capital and supporting China's economic growth. In particular, a vicious cycle of distortions in the financial system may lower economic growth and exacerbate financial risks in the long run.
 
