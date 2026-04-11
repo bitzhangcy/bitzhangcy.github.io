@@ -13,7 +13,7 @@ title: Personal Blogs
 ### 2026
 <div style="border-top: 4px solid gray;"></div>
 
-- incoming🚀
+- [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy) in preparation🚀
 
 
 ### 2025
@@ -21,6 +21,11 @@ title: Personal Blogs
 
 - [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs) in preparation🚀
 
+
+### 2024
+<div style="border-top: 4px solid gray;"></div>
+
+- [中国经济的供与给](https://chunyangzhang.com/blogs/24gjcgg) in preparation🚀
 
 ### 2023
 <div style="border-top: 4px solid gray;"></div>
