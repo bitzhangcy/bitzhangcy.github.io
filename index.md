@@ -7,9 +7,9 @@ layout: page
 
 <img src="{{ site.url }}/images/chunyangzhang.jpg" class="floatpic" style="width: 110px; border-radius: 8px; margin-left: 20px;">
 
-I am **Chunyang (Cedric) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra. Supervised by [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo), my research focuses on the intersection of **Generative Models** and **Modern Optimization**.
+I am **Chunyang (Cedric) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra. Supervised by [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo), my research sits at the intersection of **Generative Models** and **Modern Optimization**.
 
-My goal is to leverage advanced deep learning (e.g., Diffusion Models, World Models) and control theory to enhance the robustness and deployment of complex systems in real-world scenarios.
+My long-term goal is to build **embodied AI systems** that act reliably in the physical world. I am especially interested in **Vision–Language–Action (VLA) models** — combining the perceptual and reasoning capacity of large generative models with the decision-making rigor of optimization and control. I believe the next leap in real-world deployment will come from systems that not only *generate* plausible behavior, but also *optimize* it under physical, safety, and resource constraints.
 
 ---
 
@@ -22,11 +22,12 @@ My goal is to leverage advanced deep learning (e.g., Diffusion Models, World Mod
 
 ## Research Interests
 
-- **Generative AI**: Video Models, World Models, and Diffusion Models.
-- **AI for Science**: Physics-Informed Machine Learning.
-- **Control & Optimization**: Reinforcement Learning, Distributed Optimization, and Intelligent Control.
+- **Embodied AI & VLA**: Vision–Language–Action models, world models, and policy learning for real-world robotics and autonomous systems.
+- **Generative Modeling**: Diffusion models, video generation, and consistent multi-instance synthesis.
+- **Optimization & Control**: Reinforcement learning, distributed optimization, and intelligent control for safe and efficient deployment.
+- **AI for Science**: Physics-informed machine learning as a bridge between data-driven models and first-principle constraints.
 
-I am actively seeking collaborations with peers interested in these directions.
+I am actively seeking collaborations with peers working on bringing generative intelligence into closed-loop, real-world systems.
 
 ---
 

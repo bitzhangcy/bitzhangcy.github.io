@@ -2,8 +2,9 @@ title: Prosperous Hungry Era
 tagline: Do Not Go Gentle into That Good Night
 description: >-
   Personal website of Chunyang (Cedric) Zhang (张春阳), Ph.D. candidate in
-  Computer Science at UNSW Canberra. Research interests include generative
-  models, AI for science, and modern optimization & control.
+  Computer Science at UNSW Canberra. Research on Vision–Language–Action
+  models and embodied AI, combining generative modeling with modern
+  optimization for robust real-world deployment.
 lang: zh-CN
 locale: zh_CN
 # Comment out url when working locally to resolve base urls correctly
