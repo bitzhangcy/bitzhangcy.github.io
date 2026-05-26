@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /technical-blogs/index.html
-title: Technial Blogs
+title: Technical Blogs
 ---
 
 
-## Technial Tutorial
+## Technical Tutorial
 <div style="border-top: 5px solid black;"></div>
 <div style="height: 30px;"></div>
 

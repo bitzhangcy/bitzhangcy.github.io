@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Latest Update: 13th February, 2025
+Latest Update: 26th May, 2026
 
 
 ## Journal Papers
@@ -36,4 +36,4 @@ Latest Update: 13th February, 2025
 ## Preprint
 <div style="border-top: 4px solid gray;"></div>
 
-- [Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers](https://arxiv.org/abs/2504.10148)
+- [Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers](https://arxiv.org/abs/2504.10148)<br><span style="display:inline-block; padding: 2px 8px; background:#b31b1b; color:#fff; border-radius:3px; font-size:0.8em; font-weight:600;">arXiv:2504.10148</span>

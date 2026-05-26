@@ -1,70 +1,119 @@
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
+{% assign page_description = page.description | default: site.description %}
+{% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+{% assign og_locale = page.locale | default: site.locale | default: 'zh_CN' %}
+
 {% if site.owner.twitter %}<!-- Twitter Card and Open Graph meta -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta name="twitter:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
 {% if page.layout == 'photo' %}
 <meta name="twitter:card" content="photo">
 {% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
 {% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/default-thumb.png{% endif %}">{% endif %}
-<meta property="og:type" content="article">
-<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/default-thumb.png{% endif %}">
+<meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.owner.avatar }}{% endif %}">{% endif %}
 {% endif %}
-<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.owner.avatar }}{% endif %}">
+<meta property="og:locale" content="{{ og_locale }}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta property="og:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 
-{% if site.google_verify %}<!-- Webmaster Tools verfication -->
-<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
-{% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
 
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
 <!-- Google Webfonts -->
-<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
 
-<!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<!--[if (lt IE 9) & (!IEMobile)]>
-<link rel="stylesheet" href="/assets/css/ie.css">
-<![endif]-->
+<style>
+  html, body { font-family: 'PT Serif', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Georgia, serif; }
+  h1, h2, h3, h4, h5, h6, .navigation-wrapper, figcaption { font-family: 'PT Sans Narrow', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif; }
+  .kaiti { font-family: 'STKaiti', 'KaiTi', '楷体', 'KaiTi_GB2312', 'AR PL UKai CN', STSong, serif; line-height: 1.85; }
 
-<meta http-equiv="cleartype" content="on">
+  /* Sticky navigation */
+  .navigation-wrapper {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+    padding: 1em 0 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
 
-<!-- Load Modernizr -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous"></script>
+  /* Back-to-top button */
+  #back-to-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: #3BB9FF;
+    color: #fff;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    z-index: 1000;
+    padding: 0;
+  }
+  #back-to-top.visible { opacity: 1; pointer-events: auto; }
+  #back-to-top:hover { background: #1a9de5; }
+  @media (max-width: 600px) {
+    #back-to-top { bottom: 16px; right: 16px; width: 40px; height: 40px; line-height: 40px; font-size: 18px; }
+  }
+</style>
 
-<!-- 16x16 -->
+<link rel="icon" type="image/png" href="{{ site.url }}/images/fav.png">
 <link rel="shortcut icon" href="{{ site.url }}/images/fav.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/images/fav.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/fav.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/fav.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
+<link rel="apple-touch-icon" href="{{ site.url }}/images/fav.png">
+
+<!-- RSS / Atom feed -->
+{% feed_meta %}
+
+<!-- JSON-LD: Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.owner.name }}",
+  "alternateName": "张春阳",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/images/{{ site.owner.avatar }}",
+  "email": "mailto:{{ site.owner.email }}",
+  "jobTitle": "Ph.D. Candidate in Computer Science",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of New South Wales, Canberra"
+  },
+  "sameAs": [
+    "https://github.com/{{ site.owner.github | remove: '/' }}",
+    "{{ site.owner.scholar }}",
+    "https://www.linkedin.com/in/{{ site.owner.linkedin | remove: '/' }}",
+    "{{ site.owner.zhihu }}"
+  ]
+}
+</script>
