@@ -5,7 +5,7 @@ layout: page
 # About Me
 <div style="border-top: 2px solid #eee; margin-bottom: 20px;"></div>
 
-<img src="{{ site.url }}/images/chunyangzhang.jpg" class="floatpic" width="150" style="border-radius: 8px; margin-left: 20px;">
+<img src="{{ site.url }}/images/chunyangzhang.jpg" class="floatpic" width="300" style="border-radius: 8px; margin-left: 20px;">
 
 I am **Chunyang (Cedric) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra. Supervised by [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo), my research focuses on the intersection of **Generative Models** and **Modern Optimization**.
 
