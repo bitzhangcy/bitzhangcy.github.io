@@ -214,6 +214,59 @@
 
   /* ---------- Article spacing tweak so floated photo doesn't crowd headings ---------- */
   .article-wrap h2 { clear: none; }
+
+  /* ---------- Top navigation polish ---------- */
+  .navigation-wrapper a { transition: color 0.15s ease; }
+  .top-navigation li a {
+    position: relative;
+    padding-bottom: 4px;
+    border-bottom: 0 !important;
+    text-decoration: none !important;
+    color: #1f2937;
+  }
+  .top-navigation li a::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: -2px;
+    height: 2px;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.18s ease;
+  }
+  .top-navigation li a:hover { color: var(--color-accent-dark); }
+  .top-navigation li a:hover::after { transform: scaleX(0.6); }
+  .top-navigation-current,
+  .top-navigation li a.top-navigation-current {
+    text-decoration: none !important;
+    color: var(--color-accent-dark) !important;
+  }
+  .top-navigation li a.top-navigation-current::after { transform: scaleX(1); }
+
+  /* ---------- Sidebar author-bio polish ---------- */
+  .article-author-top img.bio-photo {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  }
+  .article-author-top p {
+    margin: 0.35em 0 !important;
+    line-height: 1.6;
+  }
+  .article-author-top p a {
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .article-author-top p a:hover {
+    color: var(--color-accent-dark);
+    border-bottom-color: var(--color-accent);
+  }
+  .article-author-top p a i,
+  .article-author-top p a img {
+    color: var(--color-muted);
+    margin-right: 4px;
+    vertical-align: middle;
+  }
 </style>
 
 <link rel="icon" type="image/png" href="{{ site.url }}/images/fav.png">
