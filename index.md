@@ -3,22 +3,29 @@ layout: page
 ---
 
 # About Me
-<div style="border-top: 2px solid #eee; margin-bottom: 20px;"></div>
 
-<img src="{{ site.url }}/images/chunyangzhang.jpg" class="floatpic" style="width: 110px; border-radius: 8px; margin-left: 20px;">
+<img src="{{ site.url }}/images/chunyangzhang.jpg" class="bio-hero" alt="Chunyang Zhang">
 
 I am **Chunyang (Cedric) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra, advised by [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo). My research lies at the intersection of **Generative AI** and **Optimization Theory**.
 
 My long-term goal is to build **embodied AI systems** that act reliably in the physical world. I focus on **Large Multi-Modal Models** that combine the perceptual and reasoning capacity of generative models with the decision-making rigor of optimization and control. The next leap in real-world deployment, I believe, will come from systems that not only *generate* plausible behavior, but also *optimize* it under physical, safety, and resource constraints.
 
----
-
 ## Education
-- **Ph.D. in Computer Science**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>University of New South Wales</span><span>2024 – Present</span></span>
-- **M.Eng. in Control Science &amp; Engineering**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>Beihang University</span><span>2020 – 2023</span></span>
-- **B.S. in Weapon Science &amp; Technology**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>Beijing Institute of Technology</span><span>2016 – 2020</span></span>
 
----
+<ul class="edu-list">
+  <li>
+    <div class="edu-degree">Ph.D. in Computer Science</div>
+    <div class="edu-meta"><span>University of New South Wales</span><time>2024 – Present</time></div>
+  </li>
+  <li>
+    <div class="edu-degree">M.Eng. in Control Science &amp; Engineering</div>
+    <div class="edu-meta"><span>Beihang University</span><time>2020 – 2023</time></div>
+  </li>
+  <li>
+    <div class="edu-degree">B.S. in Weapon Science &amp; Technology</div>
+    <div class="edu-meta"><span>Beijing Institute of Technology</span><time>2016 – 2020</time></div>
+  </li>
+</ul>
 
 ## Research Interests
 
@@ -29,8 +36,15 @@ My long-term goal is to build **embodied AI systems** that act reliably in the p
 
 I am actively looking for collaborations that push generative intelligence into closed-loop, physically grounded systems — particularly in robotics, autonomous driving, and large-scale industrial control.
 
----
-
 ## News
-- **[Feb. 2024]** Joined the School of Systems and Computing at UNSW as a Ph.D. candidate.
-- **[Aug. 2023]** Our paper **"Robust Control of Multi-Line Re-Entrant Manufacturing Plants..."** was published in **IEEE Transactions on Automation Science and Engineering (T-ASE)**.
+
+<ul class="timeline">
+  <li>
+    <time>Feb 2024</time>
+    <p>Joined the School of Systems and Computing at UNSW as a Ph.D. candidate.</p>
+  </li>
+  <li>
+    <time>Aug 2023</time>
+    <p>Our paper <strong>“Robust Control of Multi-Line Re-Entrant Manufacturing Plants...”</strong> was published in <strong>IEEE Transactions on Automation Science and Engineering (T-ASE)</strong>.</p>
+  </li>
+</ul>
