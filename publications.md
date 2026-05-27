@@ -27,4 +27,20 @@ Latest Update: 26th May, 2026
 - [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>42nd Chinese Control Conference, Tianjin, China, July, 2023.<br>
 
 ## Preprint
-- [Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers](https://arxiv.org/abs/2504.10148)<br><span style="display:inline-block; padding: 2px 8px; background:#b31b1b; color:#fff; border-radius:3px; font-size:0.8em; font-weight:600;">arXiv:2504.10148</span>
+- [Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers](https://arxiv.org/abs/2504.10148)<br><span class="arxiv-badge">arXiv:2504.10148</span>
+
+<style>
+  .arxiv-badge {
+    display: inline-block;
+    padding: 2px 9px;
+    background: var(--color-accent-soft);
+    color: var(--color-accent-dark);
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  .article-wrap .arxiv-badge { border-bottom: none; }
+</style>
