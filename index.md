@@ -14,9 +14,9 @@ My long-term goal is to build **embodied AI systems** that act reliably in the p
 ---
 
 ## Education
-- **Ph.D. in Computer Science**, University of New South Wales <span style="float:right;">2024 – Present</span>
-- **M.Eng. in Control Science & Engineering**, Beihang University <span style="float:right;">2020 – 2023</span>
-- **B.S. in Weapon Science & Technology**, Beijing Institute of Technology <span style="float:right;">2016 – 2020</span>
+- **Ph.D. in Computer Science**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>University of New South Wales</span><span>2024 – Present</span></span>
+- **M.Eng. in Control Science &amp; Engineering**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>Beihang University</span><span>2020 – 2023</span></span>
+- **B.S. in Weapon Science &amp; Technology**<br><span style="display:flex;justify-content:space-between;color:#555;"><span>Beijing Institute of Technology</span><span>2016 – 2020</span></span>
 
 ---
 
