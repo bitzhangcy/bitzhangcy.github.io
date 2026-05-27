@@ -5,7 +5,6 @@ title: Personal Blogs
 ---
 
 ## 个人博客
-<div style="height: 30px;"></div>
 
 ### 2026
 - [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy) in preparation🚀
