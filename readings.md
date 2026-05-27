@@ -7,8 +7,6 @@ title: Readings
 Latest Update: 26th May, 2026
 
 ## 2026
-<div style="border-top: 4px solid gray;"></div>
-
 - [《货币从哪里来？》](https://book.douban.com/subject/36187673/)
     - 以直白语言讲透现代货币体系：商业银行通过信贷"凭空"创造货币，颠覆"先存款后贷款"的传统认知。
 
@@ -49,8 +47,6 @@ Latest Update: 26th May, 2026
     - 揭示隐藏在正式规则之下、实际支配社会运行的不成文规矩，其根源是现实利害的趋利避害计算。
 
 ## 2025
-<div style="border-top: 4px solid gray;"></div>
-
 - [《政治的人生》](https://book.douban.com/subject/2125296/)
 
 - [《美国反对美国》](https://book.douban.com/subject/1418776/)
@@ -91,10 +87,7 @@ Latest Update: 26th May, 2026
 - [《康熙的红票》](https://book.douban.com/subject/36794613/)
     - 以一张红票带出传教士在康雍两朝的盛衰，论证历史走向充满偶然性，唯一真实的可能是事实细节。
 
-
 ## 2024
-<div style="border-top: 4px solid gray;"></div>
-
 - [《朱鎔基傳》](https://book.douban.com/subject/10472587/)
     - 朱镕基以非凡勇气推动中国向市场经济转型——重塑金融体系、打破"铁饭碗"、重组国企、平稳度过亚洲金融危机。
 
@@ -119,10 +112,7 @@ Latest Update: 26th May, 2026
 - [《文明的冲突与世界秩序的重建》](https://book.douban.com/subject/27203334/)
     - "西方赢得世界不是靠思想、宗教或价值观，而是靠运用有组织的暴力方面的优势——西方人常忘记这一点，非西方人却从未忘记。"
 
-
 ## 2023
-<div style="border-top: 4px solid gray;"></div>
-
 - [《中国国家治理的制度逻辑》](https://book.douban.com/subject/26901114/)
     - 沿两条脉络展开：中央与地方政府的关系、国家与民众的关系。
 
@@ -147,10 +137,7 @@ Latest Update: 26th May, 2026
 - [《城乡中国》](https://book.douban.com/subject/27015840/)
     - 探讨城乡差异的成因、后果与解决路径，试图找出城镇化改革的症结。
 
-
 ## 2022
-<div style="border-top: 4px solid gray;"></div>
-
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 详尽阐述隋唐五代时期我国封建社会在政治、经济、军事、文化、民族交融等方面的全面发展。
 
@@ -163,10 +150,7 @@ Latest Update: 26th May, 2026
 - [《魏晋之际的政治权力与家族网络》](https://book.douban.com/subject/26377063/)
     - 结合政治史与家族史，考察大族之间的政治、婚姻、交往网络在魏晋政治变局中的作用。
 
-
 ## 2021
-<div style="border-top: 4px solid gray;"></div>
-
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 详尽阐述隋唐五代时期我国封建社会在政治、经济、军事、文化、民族交融等方面的全面发展。
 
@@ -176,10 +160,7 @@ Latest Update: 26th May, 2026
 - [《万历十五年》](https://book.douban.com/subject/25893465/)
     - 以1587年为切入点，运用历史小说与传记体的叙事，从关键人物的悲剧命运探析晚明帝国走向衰落的深层原因。
 
-
 ## 2020
-<div style="border-top: 4px solid gray;"></div>
-
 - [《皇权与绅权》](https://book.douban.com/subject/10732589/)
     - 从魏晋门阀到北宋考试再到元后军法治臣，一步步揭露绅权与皇权从共治走向奴役的历史过程。
 
@@ -189,10 +170,7 @@ Latest Update: 26th May, 2026
 - [《中国历代政治得失》](https://book.douban.com/subject/30206893/)
     - 就汉唐宋明清五代的政府组织、官职、考试、赋税、兵役制度作提要勾玄的比照，叙述因革演变，指陈利害得失。
 
-
 ## 2010--2019
-<div style="border-top: 4px solid gray;"></div>
-
 - [《张居正》](https://book.douban.com/subject/34432625/)
     - 对张居正这位毁誉参半的首辅作悉心研究，塑造出这位政治家的形象。
 

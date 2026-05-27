@@ -7,10 +7,7 @@ title: Projects
 Latest Update: 26th May, 2026
 
 
-
 ## Generative Models
-<div style="border-top: 4px solid gray;"></div>
-
 - Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers.🚀🚀
 
 - Training-free Consistent Synthesis and Editing in Diffusion Transformers.🚀🚀
@@ -19,10 +16,7 @@ Latest Update: 26th May, 2026
 
 - Reinforcement Learning for Long and Complex Scene Understanding.🚀🚀 
 
-
 ## Distributed Optimization
-<div style="border-top: 4px solid gray;"></div>
-
 - Fixed-Time Nash Equilibrium Seeking in Cooperative Game Control! 🚀🚀
 
 - Optimal Control of Infinite Dimensional Systems via Neural Operators ! 🚀🚀

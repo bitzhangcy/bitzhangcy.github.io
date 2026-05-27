@@ -6,10 +6,7 @@ title: CV
 
 Latest Update: 26th May, 2026
 
-
 ## Curriculum Vitae
-<div style="border-top: 5px solid black;"></div>
-
 <p style="text-align:center; margin: 1.5em 0 2em;">
   <a href="{{ site.url }}/file/CV-ChunyangZhang-UNSW.pdf"
      download

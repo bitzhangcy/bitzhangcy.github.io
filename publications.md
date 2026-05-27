@@ -6,10 +6,7 @@ title: Publications
 
 Latest Update: 26th May, 2026
 
-
 ## Journal Papers
-<div style="border-top: 4px solid gray;"></div>
-
 - [Robust Control of Multi-Line Re-Entrant Manufacturing Plants via Stochastic Continuum Models](https://ieeexplore.ieee.org/document/10227338)<br>***Chunyang Zhang****, Qing Gao, Michael V. Basin, Jinhu Lü, and Hao Liu*<br>**IEEE Transactions on Automation Science and Engineering**, 21(4): 4923 - 4935, 2023.
 
 - [A Fuzzy Integral Sliding-Mode Parallel Control Approach for Nonlinear Descriptor Systems](https://www.sciencedirect.com/science/article/abs/pii/S0020025522011550)<br>***Chunyang Zhang****, Dianjun Gong, Qing Gao, Wei Chen, and Jiannan Wang*<br>**Information Sciences**, 615: 491‑503, 2022.
@@ -20,10 +17,7 @@ Latest Update: 26th May, 2026
 
 - [Time-Delay Luenberger Observer Design for Sliding Mode Control of Nonlinear Markovian Jump Systems via Event-Triggered Mechanism](https://www.mdpi.com/2075-1702/9/11/259)<br>*Min Cheng, **Chunyang Zhang**, Jin Qiu, Zhengtian Wu, and Qing Gao*<br>**Machines**, 9(11): 259, 2021.
 
-
 ## Conference Papers
-<div style="border-top: 4px solid gray;"></div>
-
 - [Dynamic Sliding-Mode Control for Piecewise Affine Systems](https://ieeexplore.ieee.org/abstract/document/9326817/)<br>***Chunyang Zhang****, Qing Gao, Kexin Liu, and Jinhu Lü*<br>Chinese Automation Congress, Shanghai, China, November, 2020.
 
 - [Integral Sliding-Mode Control of Piecewise Linear Systems](https://ieeexplore.ieee.org/abstract/document/9189318)<br>***Chunyang Zhang****, Qing Gao, Peng Zhang, and Kang Zhou*<br>39th Chinese Control Conference, Shenyang, China, July, 2020.
@@ -32,8 +26,5 @@ Latest Update: 26th May, 2026
 
 - [Fuzzy Integral Sliding-Mode Parallel Tracking Control Approach for A Class of Nonlinear Systems](https://ieeexplore.ieee.org/abstract/document/10239763)<br>*Jingyi Li, **Chunyang Zhang**, and Qing Gao*<br>42nd Chinese Control Conference, Tianjin, China, July, 2023.<br>
 
-
 ## Preprint
-<div style="border-top: 4px solid gray;"></div>
-
 - [Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers](https://arxiv.org/abs/2504.10148)<br><span style="display:inline-block; padding: 2px 8px; background:#b31b1b; color:#fff; border-radius:3px; font-size:0.8em; font-weight:600;">arXiv:2504.10148</span>
