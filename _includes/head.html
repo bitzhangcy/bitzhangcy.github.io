@@ -243,6 +243,43 @@
   }
   .top-navigation li a.top-navigation-current::after { transform: scaleX(1); }
 
+  /* ---------- Work-in-progress tag ---------- */
+  .wip-tag {
+    display: inline-block;
+    padding: 1px 8px;
+    margin-left: 4px;
+    background: var(--color-bg-subtle);
+    color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  /* ---------- Mobile responsiveness ---------- */
+  @media (max-width: 640px) {
+    .bio-hero {
+      float: none;
+      display: block;
+      margin: 0 auto 1.2em;
+      width: 120px;
+    }
+    .edu-meta {
+      flex-direction: column;
+      gap: 0.1em;
+    }
+    .edu-meta time {
+      font-size: 0.85em;
+    }
+    .timeline li {
+      padding-left: 1.2em;
+    }
+  }
+
   /* ---------- Sidebar author-bio polish ---------- */
   .article-author-top img.bio-photo {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
