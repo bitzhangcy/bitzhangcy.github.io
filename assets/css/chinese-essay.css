@@ -1,0 +1,70 @@
+/* Chinese essay typography
+   Apply this class to the article container, for example:
+   <article class="chinese-essay">...</article>
+*/
+
+.chinese-essay {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-size: 18px;
+  line-height: 1.95;
+  letter-spacing: 0.02em;
+  color: #2b2b2b;
+}
+
+.chinese-essay h1,
+.chinese-essay h2 {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", "楷体", serif;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.chinese-essay h1 {
+  margin: 1rem 0 2rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.chinese-essay h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 1.5rem;
+}
+
+.chinese-essay p {
+  margin: 1.15rem 0;
+  text-align: justify;
+}
+
+.chinese-essay blockquote {
+  margin: 1.8rem auto 2.5rem;
+  padding: 1.1rem 1.4rem;
+  border-left: none;
+  background: transparent;
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", "楷体", serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.9;
+  text-align: center;
+  color: #3b82b8;
+}
+
+@media (max-width: 640px) {
+  .chinese-essay {
+    padding: 1rem 1.1rem 2.5rem;
+    font-size: 17px;
+    line-height: 1.85;
+  }
+
+  .chinese-essay h1 {
+    font-size: 1.85rem;
+  }
+
+  .chinese-essay blockquote {
+    padding: 0.8rem 0.4rem;
+    font-size: 1.12rem;
+  }
+}

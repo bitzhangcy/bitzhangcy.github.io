@@ -11,7 +11,7 @@ title: Personal Blogs
 - [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs) <span class="wip-tag">in preparation</span>
 
 ## 2024
-- [中国经济的供与给](https://chunyangzhang.com/blogs/24gjcgg) <span class="wip-tag">in preparation</span>
+- [分税制与宏观调控](https://chunyangzhang.com/blogs/24gjcgg) 
 
 ## 2023
 - [中县干部——中国基层政治制度](https://chunyangzhang.com/blogs/23cccgps)
