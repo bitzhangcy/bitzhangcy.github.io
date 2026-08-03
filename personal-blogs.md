@@ -5,7 +5,7 @@ title: Personal Blogs
 ---
 
 ## 2026
-- [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy) <span class="wip-tag">in preparation</span>
+- [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy)
 
 ## 2025
 - [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs)
