@@ -8,7 +8,7 @@ title: Personal Blogs
 - [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy) <span class="wip-tag">in preparation</span>
 
 ## 2025
-- [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs) <span class="wip-tag">in preparation</span>
+- [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs)
 
 ## 2024
 - [分税制与宏观调控](https://chunyangzhang.com/blogs/24gjcgg) 

@@ -12,11 +12,12 @@ Latest Update: 26th May, 2026
 
 - Training-free Consistent Synthesis and Editing in Diffusion Transformers.🚀🚀
 
-- Long Video synthesis.🚀🚀
+- Learnable Persistent Memory Router for Narrative Long Multi-Shot Video Generation.🚀🚀
 
-- Reinforcement Learning for Long and Complex Scene Understanding.🚀🚀 
+- VLM-based Multi-Agent for Long and Complex Video Understanding.🚀🚀 
 
-## Distributed Optimization
-- Fixed-Time Nash Equilibrium Seeking in Cooperative Game Control! 🚀🚀
+## Optimization
+
+- Conditional Flow Matching for Multivariate Energy Profile Imputation! 🚀🚀
 
 - Optimal Control of Infinite Dimensional Systems via Neural Operators ! 🚀🚀
