@@ -4,7 +4,7 @@ permalink: /personal-blogs/index.html
 title: Personal Blogs
 ---
 
-Essays and personal notes on history, political economy, institutions, and society.
+<p class="page-updated">Updated 4 August 2026</p>
 
 ## 2026
 - [大一统与联邦：海权与陆权]({{ site.url }}/blogs/26dxfcy/)

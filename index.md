@@ -8,7 +8,7 @@ hide_title: true
 
 <img src="{{ site.url }}/images/chunyangzhang.jpg" class="bio-hero" alt="Chunyang Zhang">
 
-I am **Chunyang (Cedric) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra, advised by [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong) and [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo). My research lies at the intersection of **Generative AI** and **Optimization Theory**.
+I am **Chunyang (Adrian) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra, advised by [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo) and [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong). My research lies at the intersection of **Generative AI** and **Optimization Theory**.
 
 My long-term goal is to build **embodied AI systems** that act reliably in the physical world. I focus on **Large Multi-Modal Models** that combine the perceptual and reasoning capacity of generative models with the decision-making rigor of optimization and control. The next leap in real-world deployment, I believe, will come from systems that not only *generate* plausible behavior, but also *optimize* it under physical, safety, and resource constraints.
 
