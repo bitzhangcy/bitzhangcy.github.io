@@ -3,6 +3,8 @@ layout: page
 permalink: /blogs/22lqdtbhb/
 title: 晚清风云——喋血黄龙旗
 date: 2022-01-01
+lang: zh-CN
+locale: zh_CN
 ---
 
 <center><span style="font-family: STKaiti; font-size: 35px; color: #3BB9FF; font-weight: bold;">张弛从来道似弓，聊将数语示儿童<br>

@@ -1,3 +1,13 @@
+---
+layout: page
+permalink: /blogs/25zgyxs/
+title: 十步杀一人，千里不留行
+date: 2025-01-01
+lang: zh-CN
+locale: zh_CN
+hide_title: true
+---
+
 # <span class="kaiti">事了拂衣去：游侠与大一统</span>
 
 <center><span style="font-family: STKaiti; font-size: 25px; color: #3BB9FF; font-weight: bold;">赵客缦胡缨，吴钩霜雪明。银鞍照白马，飒沓如流星。<br>

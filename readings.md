@@ -4,7 +4,12 @@ permalink: /readings/index.html
 title: Readings
 ---
 
-Latest Update: 28th May, 2026
+<p class="page-updated">Updated 28 May 2026</p>
+
+<nav class="year-nav" aria-label="Reading years">
+  <a href="#2026">2026</a><a href="#2025">2025</a><a href="#2024">2024</a><a href="#2023">2023</a>
+  <a href="#2022">2022</a><a href="#2021">2021</a><a href="#2020">2020</a><a href="#readings-2010s">2010–2019</a>
+</nav>
 
 ## 2026
 - [《货币从哪里来？》](https://book.douban.com/subject/36187673/)
@@ -170,7 +175,7 @@ Latest Update: 28th May, 2026
 - [《中国历代政治得失》](https://book.douban.com/subject/30206893/)
     - 就汉唐宋明清五代的政府组织、官职、考试、赋税、兵役制度作提要勾玄的比照，叙述因革演变，指陈利害得失。
 
-## 2010--2019
+## 2010--2019 {#readings-2010s}
 - [《张居正》](https://book.douban.com/subject/34432625/)
     - 熊召政以四卷历史小说重构张居正入阁、掌权、改革与身后毁誉，在宫廷斗争中写一个改革家的权谋和孤独。
 

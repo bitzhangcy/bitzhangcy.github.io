@@ -1,3 +1,13 @@
+---
+layout: page
+permalink: /blogs/24gjcgg/
+title: 分税制与宏观调控
+date: 2024-01-01
+lang: zh-CN
+locale: zh_CN
+hide_title: true
+---
+
 # <span class="kaiti">分税制与宏观调控</span>
 
 <center><span style="font-family: STKaiti; font-size: 25px; color: #3BB9FF; font-weight: bold;">欢乐欲与少年期，人生百年常苦迟。白头富贵何所用，气力但为忧勤衰。</br>

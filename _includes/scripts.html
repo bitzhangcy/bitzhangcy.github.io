@@ -2,14 +2,24 @@
 <script>
   (function () {
     var btn = document.getElementById('back-to-top');
-    if (!btn) return;
-    var toggle = function () {
-      if (window.pageYOffset > 300) btn.classList.add('visible');
-      else btn.classList.remove('visible');
-    };
-    window.addEventListener('scroll', toggle, { passive: true });
-    btn.addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    if (btn) {
+      var toggleBackToTop = function () {
+        if (window.pageYOffset > 300) btn.classList.add('visible');
+        else btn.classList.remove('visible');
+      };
+      window.addEventListener('scroll', toggleBackToTop, { passive: true });
+      btn.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    var navToggle = document.querySelector('.nav-toggle');
+    var navigation = document.getElementById('site-navigation');
+    if (navToggle && navigation) {
+      navToggle.addEventListener('click', function () {
+        var isOpen = navigation.classList.toggle('is-open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+      });
+    }
   })();
 </script>

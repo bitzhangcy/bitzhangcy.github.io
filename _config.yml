@@ -1,14 +1,15 @@
-title: Prosperous Hungry Era
+title: Adrian
 tagline: Do Not Go Gentle into That Good Night
 description: >-
   Personal website of Chunyang (Cedric) Zhang (张春阳), Ph.D. candidate in
   Computer Science at UNSW Canberra. Research on Vision–Language–Action
   models and embodied AI, combining generative modeling with modern
   optimization for robust real-world deployment.
-lang: zh-CN
-locale: zh_CN
+lang: en
+locale: en_US
 # Comment out url when working locally to resolve base urls correctly
 url: https://chunyangzhang.com
+default_social_image: cover.jpg
 
 # Owner/author information
 owner:
@@ -17,8 +18,8 @@ owner:
   bio: Do Not Go Gentle into That Good Night
   email: chunyang.zhang@unsw.edu.au
   #twitter:
-  github: bitzhangcy/
-  linkedin: bitzhangcy/
+  github: bitzhangcy
+  linkedin: bitzhangcy
   scholar: https://scholar.google.com/citations?user=0hXn5p8AAAAJ
   #researchgate:
   zhihu: https://www.zhihu.com/people/ji-e-de-sheng-shi

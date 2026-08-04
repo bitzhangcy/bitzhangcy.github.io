@@ -5,21 +5,21 @@
 {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
-{% assign og_locale = page.locale | default: site.locale | default: 'zh_CN' %}
+{% assign og_locale = page.locale | default: site.locale | default: 'en_US' %}
+{% assign social_image = page.image.thumb | default: page.image.feature | default: site.default_social_image %}
 
-{% if site.owner.twitter %}<!-- Twitter Card and Open Graph meta -->
+<!-- Twitter Card and Open Graph meta -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta name="twitter:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+{% if site.owner.twitter %}
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-{% if page.layout == 'photo' %}
-<meta name="twitter:card" content="photo">
-{% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
-{% else %}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.owner.avatar }}{% endif %}">{% endif %}
 {% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}/images/{{ social_image }}">
+<meta name="twitter:image:alt" content="Ocean waves beneath a pastel evening sky">
 <meta property="og:type" content="article">
-<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.owner.avatar }}{% endif %}">
+<meta property="og:image" content="{{ site.url }}/images/{{ social_image }}">
+<meta property="og:image:alt" content="Ocean waves beneath a pastel evening sky">
 <meta property="og:locale" content="{{ og_locale }}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta property="og:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
@@ -46,9 +46,9 @@
 <style>
   /* ---------- Design tokens ---------- */
   :root {
-    --color-accent:        #3BB9FF;
-    --color-accent-dark:   #1a9de5;
-    --color-accent-soft:   rgba(59, 185, 255, 0.10);
+    --color-accent:        #1478a8;
+    --color-accent-dark:   #0c5f87;
+    --color-accent-soft:   rgba(20, 120, 168, 0.10);
     --color-text:          #1f2937;
     --color-muted:         #6b7280;
     --color-border:        #e5e7eb;
@@ -95,6 +95,11 @@
     color: var(--color-accent);
     border-bottom-color: currentColor;
   }
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px solid rgba(20, 120, 168, 0.35);
+    outline-offset: 3px;
+  }
 
   /* ---------- Sticky navigation ---------- */
   .navigation-wrapper {
@@ -104,6 +109,35 @@
     z-index: 999;
     padding: 1em 0 1em;
     box-shadow: 0 1px 0 var(--color-border);
+  }
+  .navigation-inner {
+    width: 83.333333%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .navigation-wrapper .site-name,
+  .navigation-wrapper .top-navigation {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+  .navigation-wrapper .site-name { flex: 0 0 auto; }
+  .navigation-wrapper .top-navigation { margin-left: auto; }
+  .top-navigation ul { display: flex; align-items: center; flex-wrap: wrap; gap: 0.35rem 1.25rem; }
+  .top-navigation li { margin-right: 0; }
+  .nav-toggle {
+    display: none;
+    margin-left: auto;
+    padding: 0.4rem 0.65rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--color-text);
+    font: inherit;
+    cursor: pointer;
   }
 
   /* ---------- Back-to-top button ---------- */
@@ -260,8 +294,77 @@
     vertical-align: middle;
   }
 
+  /* ---------- Content indexes ---------- */
+  .page-updated {
+    color: var(--color-muted);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.88em;
+  }
+  .publication-list > ul,
+  .project-list > ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .publication-list > ul > li,
+  .project-list > ul > li {
+    padding: 0.8em 0 0.9em;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .publication-list > ul > li:last-child,
+  .project-list > ul > li:last-child { border-bottom: 0; }
+  .project-description {
+    display: inline-block;
+    margin-top: 0.25em;
+    color: var(--color-muted);
+    font-size: 0.92em;
+  }
+  .journal-cover {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.91 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0.8em 0 1.5em;
+  }
+  .year-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    margin: 1em 0 1.8em;
+  }
+  .year-nav a {
+    padding: 0.2em 0.65em;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  .cv-actions { text-align: center; margin: 1.5em 0 2.2em; }
+  .cv-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    margin: 0 6px 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--color-accent);
+    transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cv-btn-primary { background: var(--color-accent); color: #fff !important; }
+  .cv-btn-primary:hover { background: var(--color-accent-dark); border-color: var(--color-accent-dark); color: #fff !important; transform: translateY(-2px); }
+  .cv-btn-ghost { color: var(--color-accent-dark); background: transparent; }
+  .cv-btn-ghost:hover { background: var(--color-accent-soft); color: var(--color-accent-dark); transform: translateY(-2px); }
+  .article-wrap .cv-btn { border-bottom: 2px solid var(--color-accent) !important; }
+  .cv-preview { max-width: 900px; margin: 0 auto; border-radius: 10px; overflow: hidden; border: 1px solid var(--color-border); box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08); }
+  .cv-preview object { width: 100%; height: min(1100px, 80vh); display: block; }
+
   /* ---------- Mobile responsiveness ---------- */
   @media (max-width: 640px) {
+    .navigation-inner { width: calc(100% - 2rem); flex-wrap: wrap; gap: 0.75rem; }
+    .nav-toggle { display: inline-block; }
+    .navigation-wrapper .top-navigation { display: none; flex: 1 0 100%; margin-left: 0; }
+    .navigation-wrapper .top-navigation.is-open { display: block; }
+    .top-navigation ul { align-items: stretch; flex-direction: column; gap: 0; }
+    .top-navigation li a { display: block; padding: 0.55rem 0; }
     .bio-hero {
       float: none;
       display: block;
@@ -278,6 +381,11 @@
     .timeline li {
       padding-left: 1.2em;
     }
+    .cv-preview object { height: 70vh; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
   }
 
   /* ---------- Sidebar author-bio polish ---------- */

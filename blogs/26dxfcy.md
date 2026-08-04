@@ -1,3 +1,13 @@
+---
+layout: page
+permalink: /blogs/26dxfcy/
+title: 大一统与联邦：海权与陆权
+date: 2026-01-01
+lang: zh-CN
+locale: zh_CN
+hide_title: true
+---
+
 # <span class="kaiti">大一统与联邦：海权与陆权</span>
 
 <center><span style="font-family: STKaiti; font-size: 25px; color: #3BB9FF; font-weight: bold;">溥天之下，莫非王土；率土之滨，莫非王臣。<br>

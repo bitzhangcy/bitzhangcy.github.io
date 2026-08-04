@@ -4,17 +4,21 @@ permalink: /personal-blogs/index.html
 title: Personal Blogs
 ---
 
+<img src="{{ site.url }}/images/cover.jpg" class="journal-cover" alt="Ocean waves beneath a pastel evening sky">
+
+Essays and personal notes on history, political economy, institutions, and society.
+
 ## 2026
-- [大一统与联邦：海权与陆权](https://chunyangzhang.com/blogs/26dxfcy)
+- [大一统与联邦：海权与陆权]({{ site.url }}/blogs/26dxfcy/)
 
 ## 2025
-- [十步杀一人，千里不留行](https://chunyangzhang.com/blogs/25zgyxs)
+- [十步杀一人，千里不留行]({{ site.url }}/blogs/25zgyxs/)
 
 ## 2024
-- [分税制与宏观调控](https://chunyangzhang.com/blogs/24gjcgg) 
+- [分税制与宏观调控]({{ site.url }}/blogs/24gjcgg/)
 
 ## 2023
-- [中县干部——中国基层政治制度](https://chunyangzhang.com/blogs/23cccgps)
+- [中县干部——中国基层政治制度]({{ site.url }}/blogs/23cccgps/)
 
 ## 2022
-- [晚清风云——喋血黄龙旗](https://chunyangzhang.com/blogs/22lqdtbhb)
+- [晚清风云——喋血黄龙旗]({{ site.url }}/blogs/22lqdtbhb/)

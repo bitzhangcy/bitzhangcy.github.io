@@ -32,11 +32,11 @@
     {% include author-bio.html %}
   </div>
   <article itemscope itemtype="http://schema.org/CreativeWork">
-  {% comment %}
+    {% if page.title and page.hide_title != true %}
     <div class="headline-wrap">
       <h1 itemprop="headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
-  {% endcomment %}
+    {% endif %}
     <div class="article-wrap" itemprop="text">
       {{ content }}
     </div><!-- /.article-wrap -->

@@ -3,6 +3,8 @@ layout: page
 permalink: /blogs/23cccgps/
 title: 中县干部——中国基层政治制度
 date: 2023-01-01
+lang: zh-CN
+locale: zh_CN
 ---
 
 <div style="border-top: 4px solid gray;"></div>
