@@ -4,7 +4,7 @@ permalink: /cv/index.html
 title: CV
 ---
 
-<p class="page-updated">Updated 26 May 2026</p>
+<p class="page-updated">Updated 4 August 2026</p>
 
 ## Curriculum Vitae
 <p class="cv-actions">

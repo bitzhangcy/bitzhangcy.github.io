@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-<p class="page-updated">Updated 26 May 2026</p>
+<p class="page-updated">Updated 4 August 2026</p>
 
 ## Journal Articles
 <div class="publication-list" markdown="1">

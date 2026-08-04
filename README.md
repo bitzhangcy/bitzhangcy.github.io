@@ -1,6 +1,6 @@
 # Chunyang means Radiant in Chinese ✨
 
-Here is **Chunyang Zhang (Cedric, 张春阳)**. Here is my personal website. Feel free to contact and engage with me 🥰
+Here is **Chunyang Zhang (Adrian, 张春阳)**. Here is my personal website. Feel free to contact and engage with me 🥰
 
 
 

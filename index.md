@@ -1,5 +1,7 @@
 ---
 layout: page
+title: About Me
+hide_title: true
 ---
 
 # About Me

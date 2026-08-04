@@ -4,9 +4,7 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-<p class="page-updated">Updated 26 May 2026</p>
-
-Selected ongoing research directions across generative models, multimodal systems, and optimization.
+<p class="page-updated">Updated 4 August 2026</p>
 
 ## Generative Models
 <div class="project-list" markdown="1">

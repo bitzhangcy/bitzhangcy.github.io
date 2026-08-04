@@ -4,7 +4,7 @@ permalink: /readings/index.html
 title: Readings
 ---
 
-<p class="page-updated">Updated 28 May 2026</p>
+<p class="page-updated">Updated 4 August 2026</p>
 
 <nav class="year-nav" aria-label="Reading years">
   <a href="#2026">2026</a><a href="#2025">2025</a><a href="#2024">2024</a><a href="#2023">2023</a>

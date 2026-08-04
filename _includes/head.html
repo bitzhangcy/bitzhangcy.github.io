@@ -318,14 +318,6 @@
     color: var(--color-muted);
     font-size: 0.92em;
   }
-  .journal-cover {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1.91 / 1;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0.8em 0 1.5em;
-  }
   .year-nav {
     display: flex;
     flex-wrap: wrap;
@@ -414,9 +406,9 @@
   }
 </style>
 
-<link rel="icon" type="image/png" href="{{ site.url }}/images/fav.png">
-<link rel="shortcut icon" href="{{ site.url }}/images/fav.ico">
-<link rel="apple-touch-icon" href="{{ site.url }}/images/fav.png">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ site.url }}/images/fav.png?v=2">
+<link rel="shortcut icon" href="{{ site.url }}/images/fav.ico?v=2">
+<link rel="apple-touch-icon" href="{{ site.url }}/images/fav.png?v=2">
 
 <!-- RSS / Atom feed -->
 {% feed_meta %}

@@ -4,8 +4,6 @@ permalink: /personal-blogs/index.html
 title: Personal Blogs
 ---
 
-<img src="{{ site.url }}/images/cover.jpg" class="journal-cover" alt="Ocean waves beneath a pastel evening sky">
-
 Essays and personal notes on history, political economy, institutions, and society.
 
 ## 2026
