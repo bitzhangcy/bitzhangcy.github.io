@@ -1,55 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="{{ page.lang | default: site.lang | default: 'zh-CN' }}">
-
-<head>
-{% include head.html %}
-
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T5N5JY1E21');
-</script>
-
-</head>
-
-
-<body class="page" itemscope itemtype="http://schema.org/WebPage">
-
-{% include navigation.html %}
-
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->{% endif %}
-
-<div id="main" role="main"  itemprop="mainContentOfPage">
-  <div class="article-author-top">
-    {% include author-bio.html %}
+---
+layout: default
+---
+<article class="page-content">
+  {% unless page.hide_title %}
+  <header class="page-heading">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1 lang="{{ page.title_lang | default: page.lang | default: site.lang }}">{{ page.title | escape }}</h1>
+  </header>
+  {% endunless %}
+  <div class="article-wrap">
+    {{ content }}
   </div>
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title and page.hide_title != true %}
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div><!--/ .headline-wrap -->
-    {% endif %}
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
-
-<div class="footer-wrap">
-  <footer>
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
-{% include scripts.html %}
-
-</body>
-</html>
+</article>

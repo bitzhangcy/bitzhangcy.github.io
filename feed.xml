@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <title>Adrian · Writing</title>
+  <link href="{{ '/feed.xml' | absolute_url | xml_escape }}" rel="self"/>
+  <link href="{{ '/personal-blogs/' | absolute_url | xml_escape }}"/>
+  <id>{{ '/personal-blogs/' | absolute_url | xml_escape }}</id>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author><name>Adrian</name></author>
+  {% assign essays = site.pages | where: 'layout', 'essay' | sort: 'date' | reverse %}
+  {% for essay in essays limit:10 %}
+  <entry>
+    <title>{{ essay.title | xml_escape }}</title>
+    <link href="{{ essay.url | absolute_url | xml_escape }}"/>
+    <id>{{ essay.url | absolute_url | xml_escape }}</id>
+    <updated>{{ essay.date | date_to_xmlschema }}</updated>
+    <summary>{{ essay.description | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>

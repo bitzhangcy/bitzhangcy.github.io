@@ -1,42 +1,77 @@
 ---
-layout: page
-title: About Me
-hide_title: true
+layout: home
+title: Adrian
+page_class: home-page
+description: Adrian, a Ph.D. candidate at UNSW Canberra, researches multimodal generative AI, vision-language models, and their applications in industry.
 ---
 
-# About Me
+<section class="hero" aria-labelledby="intro-title">
+  <div class="hero-copy">
+    <p class="eyebrow">Computer Science · UNSW Canberra</p>
+    <h1 id="intro-title">Adrian<span class="name-dot" aria-hidden="true">.</span></h1>
+    <p class="hero-role">Ph.D. candidate</p>
+  </div>
+  <p class="hero-focus">Multimodal generative AI,<br class="desktop-break"> vision-language models, and industrial applications.</p>
+  {% include author-bio.html %}
+  <figure class="hero-portrait">
+    <img src="{{ '/images/chunyangzhang.jpg' | relative_url }}" alt="Portrait of Adrian" width="400" height="572" fetchpriority="high">
+    <figcaption>Canberra, Australia</figcaption>
+  </figure>
+</section>
 
-<img src="{{ site.url }}/images/chunyangzhang.jpg" class="bio-hero" alt="Chunyang Zhang">
+<div class="bio-text" markdown="1">
+I am a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW), Canberra**, advised by [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo) and [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong).
 
-I am **Chunyang (Adrian) Zhang**, a Ph.D. candidate in Computer Science at the **University of New South Wales (UNSW)**, Canberra, advised by [Prof. Huadong Mo](https://www.unsw.edu.au/staff/huadong-mo) and [Prof. Daoyi Dong](https://profiles.uts.edu.au/Daoyi.Dong). My research lies at the intersection of **Generative AI** and **Optimization Theory**.
+My research focuses on **multimodal generative AI** and **vision-language models (VLMs)**, as well as their **applications in industry**. I am interested in controllable image and video generation, visual understanding, and multimodal reasoning. My background in **industrial control and optimization** informs how I approach the dynamics and practical constraints of industrial systems.
+</div>
 
-My long-term goal is to build **embodied AI systems** that act reliably in the physical world. I focus on **Large Multi-Modal Models** that combine the perceptual and reasoning capacity of generative models with the decision-making rigor of optimization and control. The next leap in real-world deployment, I believe, will come from systems that not only *generate* plausible behavior, but also *optimize* it under physical, safety, and resource constraints.
+<figure class="photo-band">
+  <img src="{{ '/images/cover.jpg' | relative_url }}" alt="Ocean waves beneath a pastel evening sky" width="1200" height="630" loading="lazy">
+  <figcaption>
+    <span class="photo-label">Beyond the lab</span>
+    <span class="photo-quote">{{ site.tagline }}</span>
+  </figcaption>
+</figure>
 
-## Education
+<section class="home-section" aria-labelledby="research-interests">
+  <h2 id="research-interests">Research interests</h2>
+  <div class="research-grid">
+    <div class="research-direction">
+      <span class="direction-number" aria-hidden="true">01</span>
+      <h3>Multimodal<br> generative AI</h3>
+      <p>Controllable image and video generation, with a focus on consistent synthesis and editing.</p>
+    </div>
+    <div class="research-direction">
+      <span class="direction-number" aria-hidden="true">02</span>
+      <h3>Vision-language<br> models</h3>
+      <p>Visual understanding and multimodal reasoning, including long-video analysis and VLM-based agents.</p>
+    </div>
+    <div class="research-direction">
+      <span class="direction-number" aria-hidden="true">03</span>
+      <h3>Industrial<br> applications</h3>
+      <p>Exploring how generative models and VLMs can support industrial perception, modeling, and decision making.</p>
+    </div>
+  </div>
+  <p class="collaboration-note">I welcome collaborations on multimodal generation, vision-language models, and their applications in industry. <a href="mailto:{{ site.owner.email }}">Get in touch <span aria-hidden="true">↗</span></a></p>
+</section>
 
-<ul class="edu-list">
-  <li>
-    <div class="edu-degree">Ph.D. in Computer Science</div>
-    <div class="edu-meta"><span>University of New South Wales</span><time>2024 – Present</time></div>
-  </li>
-  <li>
-    <div class="edu-degree">M.Eng. in Control Science &amp; Engineering</div>
-    <div class="edu-meta"><span>Beihang University</span><time>2020 – 2023</time></div>
-  </li>
-  <li>
-    <div class="edu-degree">B.S. in Weapon Science &amp; Technology</div>
-    <div class="edu-meta"><span>Beijing Institute of Technology</span><time>2016 – 2020</time></div>
-  </li>
-</ul>
-
-## Research Interests
-
-- **Multi-Modal Foundation Models**: Vision–Language–Action (VLA) models, world models, and embodied policy learning for real-world robotics and autonomous systems.
-- **Generative AI**: Diffusion models, video generation, and consistent multi-instance synthesis — the perception and simulation engine that feeds downstream decision making.
-- **Optimization & Control**: Reinforcement learning, distributed optimization, and intelligent control — the decision-making backbone that turns generative perception into safe, executable actions.
-- **AI for Science**: Physics-informed machine learning and neural operators bridging first-principle dynamics with data-driven models for stronger out-of-distribution generalization.
-
-I am actively looking for collaborations that push generative intelligence into closed-loop, physically grounded systems — particularly in robotics, autonomous driving, and large-scale industrial control.
+<section class="home-section" aria-labelledby="education">
+  <h2 id="education">Education</h2>
+  <ul class="edu-list">
+    <li>
+      <div><h3>Ph.D. in Computer Science</h3><p>University of New South Wales</p></div>
+      <span class="edu-date">2024 – Present</span>
+    </li>
+    <li>
+      <div><h3>M.Eng. in Control Science &amp; Engineering</h3><p>Beihang University</p></div>
+      <span class="edu-date">2020 – 2023</span>
+    </li>
+    <li>
+      <div><h3>B.S. in Weapon Science &amp; Technology</h3><p>Beijing Institute of Technology</p></div>
+      <span class="edu-date">2016 – 2020</span>
+    </li>
+  </ul>
+</section>
 
 ## News
 

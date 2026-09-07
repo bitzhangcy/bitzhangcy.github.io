@@ -1,25 +1,2 @@
-<button id="back-to-top" aria-label="Back to top" title="Back to top">&uarr;</button>
-<script>
-  (function () {
-    var btn = document.getElementById('back-to-top');
-    if (btn) {
-      var toggleBackToTop = function () {
-        if (window.pageYOffset > 300) btn.classList.add('visible');
-        else btn.classList.remove('visible');
-      };
-      window.addEventListener('scroll', toggleBackToTop, { passive: true });
-      btn.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    }
-
-    var navToggle = document.querySelector('.nav-toggle');
-    var navigation = document.getElementById('site-navigation');
-    if (navToggle && navigation) {
-      navToggle.addEventListener('click', function () {
-        var isOpen = navigation.classList.toggle('is-open');
-        navToggle.setAttribute('aria-expanded', String(isOpen));
-      });
-    }
-  })();
-</script>
+<button id="back-to-top" type="button" aria-label="{% if page.lang == 'zh-CN' %}返回顶部{% else %}Back to top{% endif %}" hidden>↑</button>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>

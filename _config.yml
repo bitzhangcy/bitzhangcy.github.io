@@ -1,93 +1,74 @@
 title: Adrian
 tagline: Do Not Go Gentle into That Good Night
 description: >-
-  Personal website of Chunyang (Cedric) Zhang (张春阳), Ph.D. candidate in
-  Computer Science at UNSW Canberra. Research on Vision–Language–Action
-  models and embodied AI, combining generative modeling with modern
-  optimization for robust real-world deployment.
+  Adrian is a Ph.D. candidate in Computer Science at UNSW Canberra,
+  with a background in industrial control and research interests in
+  large language models, generative AI, and intelligent decision making.
 lang: en
 locale: en_US
-# Comment out url when working locally to resolve base urls correctly
 url: https://chunyangzhang.com
+baseurl: ""
 default_social_image: cover.jpg
 
-# Owner/author information
 owner:
-  name: Chunyang Zhang
-  avatar: cyz.jpg
-  bio: Do Not Go Gentle into That Good Night
+  name: Adrian
+  scholarly_name: Chunyang Zhang
+  avatar: chunyangzhang.jpg
+  bio: Industrial control, language models, and generative AI.
   email: chunyang.zhang@unsw.edu.au
-  #twitter:
   github: bitzhangcy
   linkedin: bitzhangcy
   scholar: https://scholar.google.com/citations?user=0hXn5p8AAAAJ
-  #researchgate:
   zhihu: https://www.zhihu.com/people/ji-e-de-sheng-shi
-  # facebook:
-  # instagram:
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
 
-# Analytics and webmaster tools stuff goes here
-# https://search.google.com/search-console/ownership
-#google_verify: ""
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify: ""
-
-# Links to include in top navigation
-# For external links add external: true
 links:
-  - title: About Me
+  - title: About
     url: /
   - title: Publications
     url: /publications/
-  - title: CV
-    url: /cv/
   - title: Projects
     url: /projects/
-  - title: Personal Blogs
+  - title: Writing
     url: /personal-blogs/
   - title: Readings
     url: /readings/
 
+# Existing analytics accounts, loaded only in production.
+# Set an individual value to an empty string to disable that provider.
+analytics:
+  google: G-T5N5JY1E21
+  counter: 4c8f7caa-2b55-46cd-a995-2c4633303773
+  baidu: bb1dff61b808abda6246f2d171d3c3f7
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-future: true
+timezone: Australia/Sydney
+future: false
+markdown: kramdown
 highlighter: rouge
-# markdown: kramdown
-# markdown: redcarpet
-# pygments: true
-
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-
+permalink: /:categories/:title/
 kramdown:
   auto_ids: true
-  footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
+  toc_levels: 2..3
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace", "backup", "README.md"]
-
-baidu_tmid: bb1dff61b808abda6246f2d171d3c3f7
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor
+  - .bundle
+  - .tools
+  - scripts
+  - _site-preview
+  - _site-production
+  - node_modules
+  - package.json
+  - package-lock.json
+  - backup
+  - tmp
+  - .idea
+  # Local unfinished essay: remove this exclusion when ready to publish.
+  - blogs/26ymxx.md

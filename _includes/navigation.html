@@ -1,20 +1,18 @@
-<div class="navigation-wrapper">
+<a lang="en" class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" lang="en">
   <div class="navigation-inner">
-    <div class="site-name">
-      <a href="{{ site.url }}">{{ site.title }}</a>
-    </div><!-- /.site-name -->
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
-    {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
-    <div class="top-navigation" id="site-navigation">
-      <nav aria-label="Primary" itemscope itemtype="http://schema.org/SiteNavigationElement">
-        <ul>
-          {% for link in site.links %}
-          <li><a href="{{ site.url }}{{ link.url }}" {% if url == link.url %}class="top-navigation-current" aria-current="page"{% endif %}>{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div><!-- /.top-navigation -->
-  </div><!-- /.navigation-inner -->
-</div><!-- /.navigation-wrapper -->
-
-<!-- Lastly modified by Hanlin CAI in 2023/05/01 -->
+    <a class="site-name" href="{{ '/' | relative_url }}" aria-label="Adrian home">{{ site.title }}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+    {% assign current_path = page.url | replace: 'index.html', '' %}
+    <nav id="site-navigation" class="top-navigation" aria-label="Primary">
+      <ul>
+        {% for link in site.links %}
+        {% assign is_current = false %}
+        {% if current_path == link.url %}{% assign is_current = true %}{% endif %}
+        {% if page.layout == 'essay' and link.url == '/personal-blogs/' %}{% assign is_current = true %}{% endif %}
+        <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.new_tab %} target="_blank" rel="noopener"{% endif %}{% if is_current %} class="is-current"{% if current_path == link.url %} aria-current="page"{% endif %}{% endif %}>{{ link.title }}{% if link.new_tab %}<span class="visually-hidden"> (PDF, opens in a new tab)</span>{% endif %}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

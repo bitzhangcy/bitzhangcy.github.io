@@ -1,70 +1,32 @@
-/* Chinese essay typography
-   Apply this class to the article container, for example:
-   <article class="chinese-essay">...</article>
-*/
-
-.chinese-essay {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 1.5rem 1rem 3rem;
-  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
-  font-size: 18px;
-  line-height: 1.95;
-  letter-spacing: 0.02em;
-  color: #2b2b2b;
-}
-
-.chinese-essay h1,
-.chinese-essay h2 {
-  font-family: "STKaiti", "Kaiti SC", "KaiTi", "楷体", serif;
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.chinese-essay h1 {
-  margin: 1rem 0 2rem;
-  text-align: center;
-  font-size: 2.2rem;
-}
-
-.chinese-essay h2 {
-  margin-top: 2.4rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  font-size: 1.5rem;
-}
-
-.chinese-essay p {
-  margin: 1.15rem 0;
-  text-align: justify;
-}
-
-.chinese-essay blockquote {
-  margin: 1.8rem auto 2.5rem;
-  padding: 1.1rem 1.4rem;
-  border-left: none;
-  background: transparent;
-  font-family: "STKaiti", "Kaiti SC", "KaiTi", "楷体", serif;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.9;
-  text-align: center;
-  color: #3b82b8;
-}
-
-@media (max-width: 640px) {
-  .chinese-essay {
-    padding: 1rem 1.1rem 2.5rem;
-    font-size: 17px;
-    line-height: 1.85;
-  }
-
-  .chinese-essay h1 {
-    font-size: 1.85rem;
-  }
-
-  .chinese-essay blockquote {
-    padding: 0.8rem 0.4rem;
-    font-size: 1.12rem;
-  }
+/* Shared long-form Chinese typography. Article text remains in Markdown. */
+.chinese-essay { max-width: 760px; margin: 0 auto; }
+.essay-heading { margin-bottom: 2rem; }
+.back-link { display: inline-block; font-size: .85rem; margin-bottom: 2.5rem; text-decoration: none; }
+.essay-heading .eyebrow { margin-bottom: 1rem; }
+.essay-heading h1 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: clamp(1.9rem, 4vw, 2.65rem); line-height: 1.55; letter-spacing: .015em; font-weight: 600; word-break: keep-all; overflow-wrap: anywhere; }
+.essay-body { font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", serif; font-size: 18px; line-height: 2; letter-spacing: .02em; overflow-wrap: anywhere; }
+.essay-body p { margin: 1.25em 0; text-align: justify; }
+.essay-body h2 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: 1.65rem; line-height: 1.5; font-weight: 600; letter-spacing: .02em; border-bottom: 1px solid var(--line); padding-bottom: .6rem; margin: 2.6rem 0 1.5rem; }
+.essay-body h3 { margin-top: 2rem; font-size: 1.25rem; }
+.essay-body strong { font-weight: 700; }
+.essay-body blockquote { border-left: 2px solid var(--accent); margin: 1.75rem 0 2rem; padding: .25rem 1.5rem; color: var(--muted); }
+.essay-body .essay-quote { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; color: var(--accent); background: var(--tint); padding: 1.1rem 1.5rem; font-size: 1.1rem; }
+.essay-quote p { margin: .35rem 0; text-align: left; }
+.essay-body .essay-signoff { text-align: right; font-size: .92rem; color: var(--muted); }
+.kaiti { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; }
+.essay-toc { border: 1px solid var(--line); padding: .7rem 1rem; border-radius: 5px; margin: 0 0 2rem; font-size: .9rem; background: var(--surface); }
+.essay-toc summary { padding: .15rem 0; color: var(--accent); font-weight: 600; }
+.essay-toc ol { margin: .85rem 0 .5rem; padding-left: 1.4rem; columns: 2; column-gap: 2rem; }
+.essay-toc li { padding: .15rem 0; break-inside: avoid; }
+.essay-toc a { text-decoration: none; }
+.essay-toc a:hover { text-decoration: underline; }
+.essay-toc .toc-subheading { margin-left: 1rem; font-size: .9em; }
+.essay-end { border-top: 1px solid var(--line); padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: .9rem; }
+@media (max-width: 700px) {
+  .essay-toc ol { columns: 1; }
+  .essay-body { font-size: 17px; line-height: 1.95; letter-spacing: .015em; }
+  .essay-body p { text-align: left; }
+  .essay-body .essay-quote { padding: .8rem 1rem; font-size: 1.05rem; }
+  .essay-body h2 { font-size: 1.4rem; }
+  .back-link { margin-bottom: 1.7rem; }
 }

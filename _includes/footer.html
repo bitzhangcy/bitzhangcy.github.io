@@ -1,20 +1,19 @@
-<h6>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.
-  Published with <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>,
-  powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
-  based on the <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a> theme.
-  Source code for this website can be found <a href="https://github.com/bitzhangcy/bitzhangcy.github.io" rel="nofollow">here</a>.
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{site.baidu_tmid}}";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-  <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=tGZ_4852x6Mm-PPomoo98e4y_CI8D9TmioGTO03Daik"></script> -->
-  
-</h6>
-
-
-<!-- Lastly modified by Hanlin CAI in 2023/03/16 -->
+<footer class="site-footer" lang="en">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-name" href="{{ '/' | relative_url }}">Adrian</a>
+      <p class="footer-motto">{{ site.tagline }}</p>
+    </div>
+    <nav class="footer-links" aria-label="Contact and profiles">
+      <a href="mailto:{{ site.owner.email }}">Email</a>
+      <a href="{{ site.owner.scholar }}">Scholar</a>
+      <a href="https://github.com/{{ site.owner.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}">LinkedIn</a>
+      <a href="{{ site.owner.zhihu }}" lang="zh-CN">知乎</a>
+    </nav>
+  </div>
+  <div class="footer-credit">
+    <span>&copy; {{ site.time | date: '%Y' }} Adrian.</span>
+    <span>Built with <a href="https://jekyllrb.com/">Jekyll</a> · <a href="https://github.com/bitzhangcy/bitzhangcy.github.io">Source</a></span>
+  </div>
+</footer>

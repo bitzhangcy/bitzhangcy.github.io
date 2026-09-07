@@ -1,438 +1,50 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-
-{% assign page_description = page.description | default: site.description %}
-{% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-
-{% assign og_locale = page.locale | default: site.locale | default: 'en_US' %}
-{% assign social_image = page.image.thumb | default: page.image.feature | default: site.default_social_image %}
-
-<!-- Twitter Card and Open Graph meta -->
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta name="twitter:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
-{% if site.owner.twitter %}
-<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign page_title = page.title | default: site.title %}
+{% capture document_title %}{% if page_title != site.title %}{{ page_title }} · {% endif %}{{ site.title }}{% endcapture %}
+{% assign page_description = page.description | default: site.description | strip_html | normalize_whitespace %}
+{% assign canonical_path = page.url | replace: 'index.html', '' %}
+{% assign canonical_url = canonical_path | absolute_url %}
+{% assign social_image = page.image.thumb | default: page.image.feature | default: site.default_social_image | prepend: '/images/' | absolute_url %}
+<title>{{ document_title | strip | escape }}</title>
+<meta name="description" content="{{ page_description | escape }}">
+<link rel="canonical" href="{{ canonical_url }}">
+{% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+<meta name="theme-color" content="#f7f7fc">
+<meta property="og:type" content="{% if page.layout == 'essay' or page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ document_title | strip | escape }}">
+<meta property="og:description" content="{{ page_description | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:locale" content="{{ page.locale | default: site.locale }}">
+<meta property="og:image" content="{{ social_image }}">
+<meta property="og:image:alt" content="{{ page.image.alt | default: 'Cover image for Adrian’s personal website' | escape }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ social_image }}">
-<meta name="twitter:image:alt" content="Ocean waves beneath a pastel evening sky">
-<meta property="og:type" content="article">
-<meta property="og:image" content="{{ site.url }}/images/{{ social_image }}">
-<meta property="og:image:alt" content="Ocean waves beneath a pastel evening sky">
-<meta property="og:locale" content="{{ og_locale }}">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta property="og:description" content="{% if page_description %}{{ page_description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-
-{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
-
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-<link rel="canonical" href="{{ canonical }}">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Google Webfonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
-
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<style>
-  /* ---------- Design tokens ---------- */
-  :root {
-    --color-accent:        #1478a8;
-    --color-accent-dark:   #0c5f87;
-    --color-accent-soft:   rgba(20, 120, 168, 0.10);
-    --color-text:          #1f2937;
-    --color-muted:         #6b7280;
-    --color-border:        #e5e7eb;
-    --color-bg-subtle:     #f9fafb;
-  }
-
-  /* ---------- Typography ---------- */
-  html, body {
-    font-family: 'PT Serif', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Georgia, serif;
-    color: var(--color-text);
-  }
-  h1, h2, h3, h4, h5, h6, .navigation-wrapper, figcaption {
-    font-family: 'PT Sans Narrow', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif;
-  }
-  .kaiti { font-family: 'STKaiti', 'KaiTi', '楷体', 'KaiTi_GB2312', 'AR PL UKai CN', STSong, serif; line-height: 1.85; }
-
-  .article-wrap p  { line-height: 1.75; }
-  .article-wrap li { line-height: 1.7; margin-bottom: 0.35em; }
-
-  /* H2 carries its own subtle divider so we can retire the heavy
-     <div style="border-top: 4px solid gray"></div> sprinkled across pages */
-  .article-wrap h2 {
-    border-bottom: 1px solid var(--color-border);
-    padding-bottom: 0.3em;
-    margin-top: 2em;
-    margin-bottom: 1em;
-  }
-
-  /* Subtle <hr> (used in markdown via "---") */
-  .article-wrap hr {
-    border: 0;
-    border-top: 1px solid var(--color-border);
-    margin: 2em 0;
-  }
-
-  /* Links: smooth underline-on-hover */
-  .article-wrap a {
-    color: var(--color-accent-dark);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: color 0.15s ease, border-color 0.15s ease;
-  }
-  .article-wrap a:hover {
-    color: var(--color-accent);
-    border-bottom-color: currentColor;
-  }
-  a:focus-visible,
-  button:focus-visible {
-    outline: 3px solid rgba(20, 120, 168, 0.35);
-    outline-offset: 3px;
-  }
-
-  /* ---------- Sticky navigation ---------- */
-  .navigation-wrapper {
-    position: sticky;
-    top: 0;
-    background: #fff;
-    z-index: 999;
-    padding: 1em 0 1em;
-    box-shadow: 0 1px 0 var(--color-border);
-  }
-  .navigation-inner {
-    width: 83.333333%;
-    max-width: 1180px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  .navigation-wrapper .site-name,
-  .navigation-wrapper .top-navigation {
-    float: none;
-    width: auto;
-    margin: 0;
-  }
-  .navigation-wrapper .site-name { flex: 0 0 auto; }
-  .navigation-wrapper .top-navigation { margin-left: auto; }
-  .top-navigation ul { display: flex; align-items: center; flex-wrap: wrap; gap: 0.35rem 1.25rem; }
-  .top-navigation li { margin-right: 0; }
-  .nav-toggle {
-    display: none;
-    margin-left: auto;
-    padding: 0.4rem 0.65rem;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background: #fff;
-    color: var(--color-text);
-    font: inherit;
-    cursor: pointer;
-  }
-
-  /* ---------- Back-to-top button ---------- */
-  #back-to-top {
-    position: fixed;
-    bottom: 28px;
-    right: 28px;
-    width: 44px;
-    height: 44px;
-    border: none;
-    border-radius: 50%;
-    background: var(--color-accent);
-    color: #fff;
-    font-size: 22px;
-    line-height: 44px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease, transform 0.15s ease, background 0.15s ease;
-    box-shadow: 0 4px 14px rgba(59, 185, 255, 0.35);
-    z-index: 1000;
-    padding: 0;
-  }
-  #back-to-top.visible { opacity: 1; pointer-events: auto; }
-  #back-to-top:hover   { background: var(--color-accent-dark); transform: translateY(-2px); }
-  @media (max-width: 600px) {
-    #back-to-top { bottom: 16px; right: 16px; width: 40px; height: 40px; line-height: 40px; font-size: 18px; }
-  }
-
-  /* ---------- Bio photo (About Me hero) ---------- */
-  .bio-hero {
-    float: right;
-    margin: 0 0 1em 1.5em;
-    width: 140px;
-    border-radius: 50%;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
-  }
-
-  /* ---------- Education cards ---------- */
-  .edu-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 1em 0;
-  }
-  .edu-list li {
-    border-left: 3px solid var(--color-accent);
-    background: var(--color-bg-subtle);
-    padding: 0.7em 1em;
-    margin-bottom: 0.7em;
-    border-radius: 0 6px 6px 0;
-    line-height: 1.5;
-  }
-  .edu-degree { font-weight: 700; }
-  .edu-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    color: var(--color-muted);
-    font-size: 0.95em;
-    margin-top: 2px;
-    gap: 1em;
-  }
-  .edu-meta time { white-space: nowrap; font-variant-numeric: tabular-nums; }
-
-  /* ---------- News timeline ---------- */
-  .timeline {
-    list-style: none;
-    padding-left: 0;
-    margin: 1em 0;
-    position: relative;
-  }
-  .timeline li {
-    position: relative;
-    padding: 0.2em 0 0.8em 1.6em;
-    border-left: 2px solid var(--color-border);
-    margin-left: 0.5em;
-  }
-  .timeline li:last-child { border-left-color: transparent; padding-bottom: 0; }
-  .timeline li::before {
-    content: '';
-    position: absolute;
-    left: -7px;
-    top: 0.5em;
-    width: 12px;
-    height: 12px;
-    background: var(--color-accent);
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #fff;
-  }
-  .timeline time {
-    display: inline-block;
-    font-weight: 700;
-    color: var(--color-muted);
-    font-size: 0.85em;
-    letter-spacing: 0.02em;
-    margin-bottom: 0.15em;
-    font-variant-numeric: tabular-nums;
-  }
-  .timeline p { margin: 0; }
-
-  /* ---------- Reusable section divider class (replaces inline 4px lines) ---------- */
-  .section-divider {
-    border: 0;
-    border-top: 1px solid var(--color-border);
-    margin: 0.4em 0 1.4em;
-  }
-
-  /* ---------- Article spacing tweak so floated photo doesn't crowd headings ---------- */
-  .article-wrap h2 { clear: none; }
-
-  /* ---------- Top navigation polish ---------- */
-  .navigation-wrapper a { transition: color 0.15s ease; }
-  .top-navigation li a {
-    position: relative;
-    padding-bottom: 4px;
-    border-bottom: 0 !important;
-    text-decoration: none !important;
-    color: #1f2937;
-  }
-  .top-navigation li a::after {
-    content: '';
-    position: absolute;
-    left: 0; right: 0; bottom: -2px;
-    height: 2px;
-    background: var(--color-accent);
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.18s ease;
-  }
-  .top-navigation li a:hover { color: var(--color-accent-dark); }
-  .top-navigation li a:hover::after { transform: scaleX(0.6); }
-  .top-navigation-current,
-  .top-navigation li a.top-navigation-current {
-    text-decoration: none !important;
-    color: var(--color-accent-dark) !important;
-  }
-  .top-navigation li a.top-navigation-current::after { transform: scaleX(1); }
-
-  /* ---------- Work-in-progress tag ---------- */
-  .wip-tag {
-    display: inline-block;
-    padding: 1px 8px;
-    margin-left: 4px;
-    background: var(--color-bg-subtle);
-    color: var(--color-muted);
-    border: 1px solid var(--color-border);
-    border-radius: 10px;
-    font-size: 0.75em;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    font-family: 'PT Sans Narrow', sans-serif;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-
-  /* ---------- Content indexes ---------- */
-  .page-updated {
-    color: var(--color-muted);
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 0.88em;
-  }
-  .publication-list > ul,
-  .project-list > ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  .publication-list > ul > li,
-  .project-list > ul > li {
-    padding: 0.8em 0 0.9em;
-    border-bottom: 1px solid var(--color-border);
-  }
-  .publication-list > ul > li:last-child,
-  .project-list > ul > li:last-child { border-bottom: 0; }
-  .project-description {
-    display: inline-block;
-    margin-top: 0.25em;
-    color: var(--color-muted);
-    font-size: 0.92em;
-  }
-  .year-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45em;
-    margin: 1em 0 1.8em;
-  }
-  .year-nav a {
-    padding: 0.2em 0.65em;
-    border: 1px solid var(--color-border);
-    border-radius: 999px;
-    font-family: 'PT Sans Narrow', sans-serif;
-  }
-  .cv-actions { text-align: center; margin: 1.5em 0 2.2em; }
-  .cv-btn {
-    display: inline-block;
-    padding: 10px 22px;
-    margin: 0 6px 8px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    border: 2px solid var(--color-accent);
-    transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .cv-btn-primary { background: var(--color-accent); color: #fff !important; }
-  .cv-btn-primary:hover { background: var(--color-accent-dark); border-color: var(--color-accent-dark); color: #fff !important; transform: translateY(-2px); }
-  .cv-btn-ghost { color: var(--color-accent-dark); background: transparent; }
-  .cv-btn-ghost:hover { background: var(--color-accent-soft); color: var(--color-accent-dark); transform: translateY(-2px); }
-  .article-wrap .cv-btn { border-bottom: 2px solid var(--color-accent) !important; }
-  .cv-preview { max-width: 900px; margin: 0 auto; border-radius: 10px; overflow: hidden; border: 1px solid var(--color-border); box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08); }
-  .cv-preview object { width: 100%; height: min(1100px, 80vh); display: block; }
-
-  /* ---------- Mobile responsiveness ---------- */
-  @media (max-width: 640px) {
-    .navigation-inner { width: calc(100% - 2rem); flex-wrap: wrap; gap: 0.75rem; }
-    .nav-toggle { display: inline-block; }
-    .navigation-wrapper .top-navigation { display: none; flex: 1 0 100%; margin-left: 0; }
-    .navigation-wrapper .top-navigation.is-open { display: block; }
-    .top-navigation ul { align-items: stretch; flex-direction: column; gap: 0; }
-    .top-navigation li a { display: block; padding: 0.55rem 0; }
-    .bio-hero {
-      float: none;
-      display: block;
-      margin: 0 auto 1.2em;
-      width: 120px;
-    }
-    .edu-meta {
-      flex-direction: column;
-      gap: 0.1em;
-    }
-    .edu-meta time {
-      font-size: 0.85em;
-    }
-    .timeline li {
-      padding-left: 1.2em;
-    }
-    .cv-preview object { height: 70vh; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
-  }
-
-  /* ---------- Sidebar author-bio polish ---------- */
-  .article-author-top img.bio-photo {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  }
-  .article-author-top p {
-    margin: 0.35em 0 !important;
-    line-height: 1.6;
-  }
-  .article-author-top p a {
-    color: var(--color-text);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: color 0.15s ease, border-color 0.15s ease;
-  }
-  .article-author-top p a:hover {
-    color: var(--color-accent-dark);
-    border-bottom-color: var(--color-accent);
-  }
-  .article-author-top p a i,
-  .article-author-top p a img {
-    color: var(--color-muted);
-    margin-right: 4px;
-    vertical-align: middle;
-  }
-</style>
-
-<link rel="icon" type="image/png" sizes="512x512" href="{{ site.url }}/images/fav.png?v=2">
-<link rel="shortcut icon" href="{{ site.url }}/images/fav.ico?v=2">
-<link rel="apple-touch-icon" href="{{ site.url }}/images/fav.png?v=2">
-
-<!-- RSS / Atom feed -->
-{% feed_meta %}
-
-<!-- JSON-LD: Person -->
+<meta name="twitter:title" content="{{ document_title | strip | escape }}">
+<meta name="twitter:description" content="{{ page_description | escape }}">
+<meta name="twitter:image" content="{{ social_image }}">
+<meta name="twitter:image:alt" content="{{ page.image.alt | default: 'Cover image for Adrian’s personal website' | escape }}">
+<link rel="icon" href="{{ '/images/fav.ico' | relative_url }}" sizes="any">
+<link rel="icon" href="{{ '/images/fav.png' | relative_url }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ '/images/fav.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if page.layout == 'essay' or page.layout == 'post' %}<link rel="stylesheet" href="{{ '/assets/css/chinese-essay.css' | relative_url }}">{% endif %}
+<link rel="alternate" type="application/atom+xml" title="Adrian · Writing" href="{{ '/feed.xml' | relative_url }}">
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify | escape }}">{% endif %}
+{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify | escape }}">{% endif %}
+{% if page.url == '/' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "{{ site.owner.name }}",
-  "alternateName": "张春阳",
-  "url": "{{ site.url }}",
-  "image": "{{ site.url }}/images/{{ site.owner.avatar }}",
-  "email": "mailto:{{ site.owner.email }}",
+  "name": {{ site.owner.name | jsonify }},
+  "alternateName": [{{ site.owner.scholarly_name | jsonify }}, "张春阳"],
+  "url": {{ '/' | absolute_url | jsonify }},
+  "image": {{ site.owner.avatar | prepend: '/images/' | absolute_url | jsonify }},
   "jobTitle": "Ph.D. Candidate in Computer Science",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "University of New South Wales, Canberra"
-  },
-  "sameAs": [
-    "https://github.com/{{ site.owner.github | remove: '/' }}",
-    "{{ site.owner.scholar }}",
-    "https://www.linkedin.com/in/{{ site.owner.linkedin | remove: '/' }}",
-    "{{ site.owner.zhihu }}"
-  ]
+  "affiliation": {"@type": "CollegeOrUniversity", "name": "University of New South Wales, Canberra"},
+  "sameAs": [{{ site.owner.github | prepend: 'https://github.com/' | jsonify }}, {{ site.owner.scholar | jsonify }}, {{ site.owner.linkedin | prepend: 'https://www.linkedin.com/in/' | jsonify }}]
 }
 </script>
+{% endif %}
+{% include analytics.html %}

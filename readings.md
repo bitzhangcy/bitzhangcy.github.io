@@ -2,16 +2,22 @@
 layout: page
 permalink: /readings/index.html
 title: Readings
+title_lang: en
+eyebrow: 阅读与记录
+description: Adrian 的历年阅读记录，涵盖历史、政治、经济与文学。
+lang: zh-CN
+locale: zh_CN
+page_class: reading-page
 ---
 
-<p class="page-updated">Updated 4 August 2026</p>
+<p class="page-intro">一份持续积累的阅读记录。按年份整理读过的书与文章，也留下值得回看的线索。</p>
 
-<nav class="year-nav" aria-label="Reading years">
-  <a href="#2026">2026</a><a href="#2025">2025</a><a href="#2024">2024</a><a href="#2023">2023</a>
-  <a href="#2022">2022</a><a href="#2021">2021</a><a href="#2020">2020</a><a href="#readings-2010s">2010–2019</a>
+<nav class="year-nav" aria-label="按阅读年份跳转">
+  <a href="#reading-2026">2026</a><a href="#reading-2025">2025</a><a href="#reading-2024">2024</a><a href="#reading-2023">2023</a>
+  <a href="#reading-2022">2022</a><a href="#reading-2021">2021</a><a href="#reading-2020">2020</a><a href="#readings-2010s">2010–2019</a>
 </nav>
 
-## 2026
+## 2026 {#reading-2026}
 - [《货币从哪里来？》](https://book.douban.com/subject/36187673/)
     - 用现代货币理论和银行资产负债表解释货币创造：商业银行发放贷款即创造存款，央行更多通过利率与流动性框架约束信用扩张。
 
@@ -51,7 +57,7 @@ title: Readings
 - [《潜规则》](https://book.douban.com/subject/3580750/)
     - 揭示隐藏在正式规则之下、实际支配社会运行的不成文规矩，其根源是现实利害的趋利避害计算。
 
-## 2025
+## 2025 {#reading-2025}
 - [《政治的人生》](https://book.douban.com/subject/2125296/)
 
 - [《美国反对美国》](https://book.douban.com/subject/1418776/)
@@ -92,7 +98,7 @@ title: Readings
 - [《康熙的红票》](https://book.douban.com/subject/36794613/)
     - 以康熙"红票"和传教士文书为线索，重看清初宫廷、耶稣会士、礼仪之争与雍正禁教之间的复杂互动。
 
-## 2024
+## 2024 {#reading-2024}
 - [《朱鎔基傳》](https://book.douban.com/subject/10472587/)
     - 把朱镕基个人经历放在现代中国转型中，重点写其在上海和中央推动市场化、财税金融、国企改革与危机应对。
 
@@ -117,7 +123,7 @@ title: Readings
 - [《文明的冲突与世界秩序的重建》](https://book.douban.com/subject/27203334/)
     - 西方赢得世界不是靠思想、宗教或价值观，而是靠运用有组织的暴力方面的优势——西方人常忘记这一点，非西方人却从未忘记。
 
-## 2023
+## 2023 {#reading-2023}
 - [《中国国家治理的制度逻辑》](https://book.douban.com/subject/26901114/)
     - 以中央—地方关系与国家—民众关系为两条主线，解释中国治理中正式制度与实际运行逻辑的张力。
 
@@ -142,7 +148,7 @@ title: Readings
 - [《城乡中国》](https://book.douban.com/subject/27015840/)
     - 周其仁围绕土地、户籍、人口流动和城镇化，分析城乡二元结构的制度根源与改革难点。
 
-## 2022
+## 2022 {#reading-2022}
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 王仲荦以制度、政治、经济、民族关系与文化为纲，系统叙述隋唐五代从统一盛世到藩镇割据的历史演变。
 
@@ -155,7 +161,7 @@ title: Readings
 - [《魏晋之际的政治权力与家族网络》](https://book.douban.com/subject/26377063/)
     - 结合政治史与家族史，考察大族之间的政治、婚姻、交往网络在魏晋政治变局中的作用。
 
-## 2021
+## 2021 {#reading-2021}
 - [《隋唐五代史》](https://book.douban.com/subject/26969624/)
     - 王仲荦以制度、政治、经济、民族关系与文化为纲，系统叙述隋唐五代从统一盛世到藩镇割据的历史演变。
 
@@ -165,7 +171,7 @@ title: Readings
 - [《万历十五年》](https://book.douban.com/subject/25893465/)
     - 以1587年为切入点，运用历史小说与传记体的叙事，从关键人物的悲剧命运探析晚明帝国走向衰落的深层原因。
 
-## 2020
+## 2020 {#reading-2020}
 - [《皇权与绅权》](https://book.douban.com/subject/10732589/)
     - 费孝通、吴晗等从皇权、绅权、帮权和民权等角度讨论传统基层权力的运作与平衡。
 

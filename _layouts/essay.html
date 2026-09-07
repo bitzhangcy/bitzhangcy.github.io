@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="chinese-essay">
+  <header class="essay-heading">
+    <a class="back-link" href="{{ '/personal-blogs/' | relative_url }}">← 返回文章列表</a>
+    <p class="eyebrow">随笔{% if page.date %} · {{ page.date | date: '%Y' }}{% endif %}</p>
+    <h1>{{ page.title | escape | replace: '：', '：<wbr>' | replace: '——', '——<wbr>' }}</h1>
+  </header>
+  <details class="essay-toc" hidden>
+    <summary>本文目录</summary>
+    <nav aria-label="本文目录"></nav>
+  </details>
+  <div class="essay-body">
+    {{ content }}
+  </div>
+  <footer class="essay-end">
+    <a href="{{ '/personal-blogs/' | relative_url }}">← 返回文章列表</a>
+    <a href="{{ '/feed.xml' | relative_url }}">订阅 RSS</a>
+  </footer>
+</article>

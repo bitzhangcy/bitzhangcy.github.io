@@ -1,25 +1,7 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100" loading="lazy">
-
-<p>{{ site.owner.bio }}</p>
-
-{% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
-
-{% if site.owner.cv %}<p style="text-indent:0;"><a href="{{ site.owner.cv }}"><img src="{{ site.url }}/images/logo/icons8-cv-100.png" width="16.5" height="16.5"> My CV</a></p>{% endif %}
-
-{% if site.owner.twitter %}<p style="text-indent:0;"><a href="https://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a></p>{% endif %}
-
-{% if site.owner.facebook %}<p style="text-indent:0;"><a href="https://facebook.com/{{ site.owner.facebook }}"><i class="icon-facebook"></i> Facebook</a></p>{% endif %}
-
-{% if site.owner.linkedin %}<p style="text-indent:0;"><a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> LinkedIn</a></p>{% endif %}
-
-{% if site.owner.instagram %}<p style="text-indent:0;"><a href="https://instagram.com/{{ site.owner.instagram }}"><i class="icon-instagram"></i> Instagram</a></p>{% endif %}
-
-{% if site.owner.github %}<p style="text-indent:0;"><a href="https://github.com/{{ site.owner.github }}"><i class="icon-github"></i> Github</a></p>{% endif %}
-
-{% if site.owner.scholar %}<p style="text-indent:0;"><a href="{{ site.owner.scholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>{% endif %}
-
-{% if site.owner.researchgate %}<p style="text-indent:0;"><a href="{{ site.owner.researchgate }}"><img src="{{ site.url }}/images/logo/icons8-rg.png" width="14" height="14"> ResearchGate</a></p>{% endif %}
-
-{% if site.owner.zhihu %}<p style="text-indent:0;"><a href="{{ site.owner.zhihu }}"><img src="{{ site.url }}/images/logo/icons8-zhihu-96.png" width="15.8" height="15.8"> Zhihu</a></p>{% endif %}
-
-{% if site.owner.bilibili %}<p style="text-indent:0;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}"><img src="{{ site.url }}/images/logo/icons8-retro-tv-100.png" width="15" height="15"> Bilibili</a></p>{% endif %}
+<nav class="contact-links" aria-label="Contact and academic profiles">
+  <a href="mailto:{{ site.owner.email }}">Email <span aria-hidden="true">↗</span></a>
+  <a href="{{ site.owner.scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+  <a href="https://github.com/{{ site.owner.github }}">GitHub <span aria-hidden="true">↗</span></a>
+  <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>
+  <a href="{{ '/file/CV-ChunyangZhang-UNSW.pdf' | relative_url }}" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span><span class="visually-hidden"> (PDF, opens in a new tab)</span></a>
+</nav>

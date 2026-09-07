@@ -1,10 +1,14 @@
 _site/
+_site-preview/
+_site-production/
+.tools/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 .bundle/
 vendor/
 Gemfile.lock
+__pycache__/
 
 # OS
 .DS_Store

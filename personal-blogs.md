@@ -1,22 +1,24 @@
 ---
 layout: page
+page_class: writing-page
 permalink: /personal-blogs/index.html
-title: Personal Blogs
+title: Writing
+title_lang: en
+eyebrow: 随笔与思考
+description: Adrian 的中文随笔，记录关于历史、政治制度与社会变迁的阅读和思考。
+lang: zh-CN
+locale: zh_CN
 ---
 
-<p class="page-updated">Updated 4 August 2026</p>
+<p class="page-intro">科研之外，读历史，也读当下。这里记录我对历史、政治制度与社会变迁的一些思考。</p>
 
-## 2026
-- [大一统与联邦：海权与陆权]({{ site.url }}/blogs/26dxfcy/)
-
-## 2025
-- [十步杀一人，千里不留行]({{ site.url }}/blogs/25zgyxs/)
-
-## 2024
-- [分税制与宏观调控]({{ site.url }}/blogs/24gjcgg/)
-
-## 2023
-- [中县干部——中国基层政治制度]({{ site.url }}/blogs/23cccgps/)
-
-## 2022
-- [晚清风云——喋血黄龙旗]({{ site.url }}/blogs/22lqdtbhb/)
+<div class="writing-list">
+  {% assign essays = site.pages | where: 'layout', 'essay' | sort: 'date' | reverse %}
+  {% for essay in essays %}
+  <article class="writing-entry">
+    <p class="writing-year"><time datetime="{{ essay.date | date: '%Y' }}">{{ essay.date | date: '%Y' }}</time></p>
+    <h2><a href="{{ essay.url | relative_url }}">{{ essay.title | escape }}</a></h2>
+    <p class="writing-description">{{ essay.description | escape }}</p>
+  </article>
+  {% endfor %}
+</div>
