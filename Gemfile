@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Use GitHub Pages-compatible Jekyll and the plugins this site actually enables.
 gem "jekyll", "~> 3.10.0"
+gem "kramdown-parser-gfm", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.4.0"
 
 # Ruby 3 no longer ships WEBrick, which powers the local preview server.
