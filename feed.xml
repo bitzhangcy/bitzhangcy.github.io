@@ -3,21 +3,34 @@ layout: null
 permalink: /feed.xml
 sitemap: false
 ---
+{%- assign essays = site.pages | where: 'layout', 'essay' | where_exp: 'essay', 'essay.published != false' -%}
+{%- comment -%}Sort by the effective update date without a custom plugin, including updates to older essays.{%- endcomment -%}
+{%- capture feed_order -%}
+  {%- for essay in essays -%}
+    {{- essay.last_modified_at | default: essay.date | date_to_xmlschema | date: '%012s' -}}::{{- essay.url -}}||
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign feed_order = feed_order | split: '||' | sort | reverse -%}
+{%- assign latest_url = feed_order.first | split: '::' | last -%}
+{%- assign latest_essay = essays | where: 'url', latest_url | first -%}
+{%- assign feed_updated = latest_essay.last_modified_at | default: latest_essay.date | default: site.time -%}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <title>Adrian · Writing</title>
   <link href="{{ '/feed.xml' | absolute_url | xml_escape }}" rel="self"/>
   <link href="{{ '/personal-blogs/' | absolute_url | xml_escape }}"/>
   <id>{{ '/personal-blogs/' | absolute_url | xml_escape }}</id>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ feed_updated | date_to_xmlschema }}</updated>
   <author><name>Adrian</name></author>
-  {% assign essays = site.pages | where: 'layout', 'essay' | sort: 'date' | reverse %}
-  {% for essay in essays limit:10 %}
+  {% for essay_key in feed_order limit:10 %}
+  {% assign essay_url = essay_key | split: '::' | last %}
+  {% assign essay = essays | where: 'url', essay_url | first %}
   <entry>
     <title>{{ essay.title | xml_escape }}</title>
     <link href="{{ essay.url | absolute_url | xml_escape }}"/>
     <id>{{ essay.url | absolute_url | xml_escape }}</id>
-    <updated>{{ essay.date | date_to_xmlschema }}</updated>
+    <published>{{ essay.date | date_to_xmlschema }}</published>
+    <updated>{{ essay.last_modified_at | default: essay.date | date_to_xmlschema }}</updated>
     <summary>{{ essay.description | xml_escape }}</summary>
   </entry>
   {% endfor %}

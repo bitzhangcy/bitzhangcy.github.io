@@ -28,14 +28,16 @@ links:
     url: /publications/
   - title: Projects
     url: /projects/
-  - title: Writing
-    url: /personal-blogs/
   - title: Readings
     url: /readings/
+  - title: Writing
+    url: /personal-blogs/
 
-# Existing analytics accounts, loaded only in production.
-# Set an individual value to an empty string to disable that provider.
+
+# Load one analytics provider in production; account IDs remain available below.
+# Options: google, counter, baidu, or an empty string to disable analytics.
 analytics:
+  provider: google
   google: G-T5N5JY1E21
   counter: 4c8f7caa-2b55-46cd-a995-2c4633303773
   baidu: bb1dff61b808abda6246f2d171d3c3f7
@@ -52,6 +54,17 @@ kramdown:
 
 plugins:
   - jekyll-sitemap
+
+# All essays share a template. Publication is controlled per file with published.
+defaults:
+  - scope:
+      path: "blogs"
+      type: pages
+    values:
+      layout: essay
+      lang: zh-CN
+      locale: zh_CN
+      status: complete
 
 exclude:
   - README.md
@@ -70,5 +83,3 @@ exclude:
   - backup
   - tmp
   - .idea
-  # Local unfinished essay: remove this exclusion when ready to publish.
-  - blogs/26ymxx.md

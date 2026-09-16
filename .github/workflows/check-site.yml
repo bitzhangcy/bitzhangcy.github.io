@@ -1,0 +1,39 @@
+name: Check site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-site-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install check dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Test publishing rules
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Build production site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --destination _site-production --strict_front_matter
+      - name: Check generated pages and article publishing
+        run: python scripts/check_site.py _site-production

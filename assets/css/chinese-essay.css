@@ -1,32 +1,80 @@
-/* Shared long-form Chinese typography. Article text remains in Markdown. */
-.chinese-essay { max-width: 760px; margin: 0 auto; }
-.essay-heading { margin-bottom: 2rem; }
-.back-link { display: inline-block; font-size: .85rem; margin-bottom: 2.5rem; text-decoration: none; }
-.essay-heading .eyebrow { margin-bottom: 1rem; }
-.essay-heading h1 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: clamp(1.9rem, 4vw, 2.65rem); line-height: 1.55; letter-spacing: .015em; font-weight: 600; word-break: keep-all; overflow-wrap: anywhere; }
-.essay-body { font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", serif; font-size: 18px; line-height: 2; letter-spacing: .02em; overflow-wrap: anywhere; }
-.essay-body p { margin: 1.25em 0; text-align: justify; }
-.essay-body h2 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: 1.65rem; line-height: 1.5; font-weight: 600; letter-spacing: .02em; border-bottom: 1px solid var(--line); padding-bottom: .6rem; margin: 2.6rem 0 1.5rem; }
-.essay-body h3 { margin-top: 2rem; font-size: 1.25rem; }
+/* Quiet reading surfaces, native fonts, and a persistent chapter index. */
+.essay-page .site-main { max-width: 1140px; padding-top: 2.5rem; }
+.chinese-essay { max-width: 720px; margin: 0 auto; }
+.essay-heading { margin-bottom: 1.8rem; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-size: .82rem; margin-bottom: 1.1rem; text-decoration: none; }
+.essay-heading .eyebrow { margin-bottom: .75rem; }
+.essay-heading .eyebrow .essay-status { margin-left: .4rem; padding: 0 0 0 .6rem; border: 0; border-left: 1px solid #d8d6e8; border-radius: 0; background: transparent; font-size: inherit; }
+.essay-heading h1 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: clamp(1.9rem, 3.3vw, 2.6rem); line-height: 1.5; letter-spacing: .025em; font-weight: 600; word-break: keep-all; overflow-wrap: anywhere; }
+.essay-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem 1rem; color: var(--muted); font: .78rem/1.8 var(--sans); margin: .9rem 0 0; }
+.essay-meta time { font-variant-numeric: tabular-nums; }
+.essay-layout { min-width: 0; }
+.essay-body { min-width: 0; font-family: "Songti SC", "Noto Serif CJK SC", "Noto Serif SC", "STSong", "SimSun", serif; font-size: 18px; line-height: 2; letter-spacing: .015em; overflow-wrap: anywhere; }
+.essay-body p { margin: 1.2em 0; text-align: justify; }
+.essay-body h2 { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", "SimSun", serif; font-size: 1.55rem; line-height: 1.5; font-weight: 600; letter-spacing: .025em; border-bottom: 1px solid var(--line); padding-bottom: .65rem; margin: 2.5rem 0 1.25rem; scroll-margin-top: 4rem; }
+.essay-body h3 { margin-top: 2rem; font-family: var(--sans); font-size: 1.15rem; scroll-margin-top: 4rem; }
+.essay-body :is(h2, h3):focus { outline: none; }
+.essay-body :is(h2, h3):focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
 .essay-body strong { font-weight: 700; }
-.essay-body blockquote { border-left: 2px solid var(--accent); margin: 1.75rem 0 2rem; padding: .25rem 1.5rem; color: var(--muted); }
-.essay-body .essay-quote { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; color: var(--accent); background: var(--tint); padding: 1.1rem 1.5rem; font-size: 1.1rem; }
-.essay-quote p { margin: .35rem 0; text-align: left; }
+.essay-body blockquote { border-left: 2px solid #b5b9d4; margin: 1.4rem 0 1.8rem; padding: .25rem 1.25rem; color: var(--muted); }
+.essay-body .essay-quote { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; color: #586085; background: #f5f5f9; padding: 1rem 1.25rem; font-size: 1.03rem; border-radius: 0 6px 6px 0; }
+.essay-body > .essay-quote:first-child { margin-top: 0; }
+.essay-quote p { margin: .3rem 0; text-align: left; }
 .essay-body .essay-signoff { text-align: right; font-size: .92rem; color: var(--muted); }
 .kaiti { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; }
-.essay-toc { border: 1px solid var(--line); padding: .7rem 1rem; border-radius: 5px; margin: 0 0 2rem; font-size: .9rem; background: var(--surface); }
-.essay-toc summary { padding: .15rem 0; color: var(--accent); font-weight: 600; }
-.essay-toc ol { margin: .85rem 0 .5rem; padding-left: 1.4rem; columns: 2; column-gap: 2rem; }
-.essay-toc li { padding: .15rem 0; break-inside: avoid; }
-.essay-toc a { text-decoration: none; }
-.essay-toc a:hover { text-decoration: underline; }
-.essay-toc .toc-subheading { margin-left: 1rem; font-size: .9em; }
-.essay-end { border-top: 1px solid var(--line); padding-top: 1.5rem; margin-top: 3rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: .9rem; }
+.essay-toc { position: sticky; top: var(--header-height); z-index: 30; border: 1px solid var(--line); padding: 0 .9rem; border-radius: 7px; margin: 0 0 1.4rem; font: .85rem/1.7 var(--sans); background: #fdfdfc; box-shadow: 0 3px 12px #252b3205; }
+.essay-toc summary { min-height: 46px; padding: .65rem .15rem; color: var(--accent-dark); font-weight: 600; }
+.essay-toc nav { max-height: min(55vh, 28rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-bottom: .65rem; }
+.essay-toc ol { list-style: none; margin: 0; padding: 0; }
+.essay-toc li { margin: .15rem 0; }
+.essay-toc a { display: block; padding: .45rem .7rem; border-left: 2px solid transparent; border-radius: 0 4px 4px 0; color: var(--muted); text-decoration: none; line-height: 1.65; }
+.essay-toc a:hover { background: #f3f3f8; color: var(--accent); }
+.essay-toc a[aria-current="location"] { color: var(--accent-dark); background: #efeff7; border-left-color: var(--accent); font-weight: 600; }
+.essay-toc .toc-subheading { margin-left: .8rem; font-size: .92em; }
+.essay-end { border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2.75rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; font-size: .85rem; }
+.essay-end a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
+.essay-end a:hover { text-decoration: underline; }
+.essay-pagination { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.essay-pagination-link { display: flex; flex-direction: column; gap: .4rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff; text-decoration: none; }
+.essay-pagination-link:hover { border-color: #babed8; background: #f8f8fc; }
+.essay-pagination-link:only-child { grid-column: 1 / -1; }
+.essay-pagination-label { color: var(--muted); font-size: .74rem; }
+.essay-pagination-title { font-size: .92rem; line-height: 1.7; }
+.essay-next { grid-column: 2; text-align: right; }
+
+@media (min-width: 1200px) {
+  .chinese-essay.has-toc { max-width: 1020px; }
+  .has-toc .essay-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 3rem; align-items: start; }
+  .has-toc .essay-heading, .has-toc .essay-end, .has-toc .essay-pagination { margin-left: calc(220px + 3rem); }
+  .essay-toc { top: calc(var(--header-height) + 1.25rem); padding: 0 .3rem 0 0; border: 0; border-radius: 0; border-right: 1px solid var(--line); background: transparent; box-shadow: none; }
+  .essay-toc summary { font-size: .78rem; letter-spacing: .05em; padding-top: .35rem; }
+  .essay-toc nav { max-height: calc(100vh - var(--header-height) - 6rem); max-height: calc(100dvh - var(--header-height) - 6rem); padding-right: .55rem; }
+  .essay-toc a { padding: .45rem .6rem; font-size: .82rem; }
+  .essay-body :is(h2, h3) { scroll-margin-top: 1rem; }
+}
 @media (max-width: 700px) {
-  .essay-toc ol { columns: 1; }
-  .essay-body { font-size: 17px; line-height: 1.95; letter-spacing: .015em; }
+  .essay-page .site-main { padding-top: 1.25rem; }
+  .essay-heading { margin-bottom: 1.25rem; }
+  .essay-heading h1 { font-size: clamp(1.75rem, 6.3vw, 2.15rem); line-height: 1.55; }
+  .back-link { margin-bottom: .65rem; }
+  .essay-meta { font-size: .73rem; gap: .3rem .8rem; margin-top: .75rem; }
+  .essay-body { font-size: 17px; line-height: 1.95; letter-spacing: .01em; }
   .essay-body p { text-align: left; }
-  .essay-body .essay-quote { padding: .8rem 1rem; font-size: 1.05rem; }
+  .essay-body .essay-quote { padding: .75rem 1rem; font-size: 1rem; }
   .essay-body h2 { font-size: 1.4rem; }
-  .back-link { margin-bottom: 1.7rem; }
+  .essay-toc { margin-bottom: 1rem; }
+  .essay-toc a { min-height: 44px; padding-top: .6rem; padding-bottom: .6rem; }
+  .essay-pagination { gap: .7rem; }
+  .essay-pagination-link { padding: .85rem; }
+  .essay-pagination-title { font-size: .85rem; }
+}
+@media (max-width: 380px) {
+  .essay-pagination { grid-template-columns: 1fr; }
+  .essay-next { grid-column: 1; }
+}
+@media print {
+  .essay-page .site-main, .chinese-essay, .chinese-essay.has-toc { max-width: none; padding: 0; }
+  .has-toc .essay-layout { display: block; }
+  .has-toc .essay-heading { margin-left: 0; }
+  .essay-body { font-size: 11pt; line-height: 1.8; }
 }

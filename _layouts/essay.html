@@ -1,19 +1,43 @@
 ---
 layout: default
 ---
-<article class="chinese-essay">
+<article class="chinese-essay" data-essay-status="{{ page.status | default: 'complete' }}">
   <header class="essay-heading">
     <a class="back-link" href="{{ '/personal-blogs/' | relative_url }}">← 返回文章列表</a>
-    <p class="eyebrow">随笔{% if page.date %} · {{ page.date | date: '%Y' }}{% endif %}</p>
+    <p class="eyebrow">随笔{% if page.status == 'writing' %} <span class="essay-status">写作中</span>{% endif %}</p>
     <h1>{{ page.title | escape | replace: '：', '：<wbr>' | replace: '——', '——<wbr>' }}</h1>
+    <p class="essay-meta">
+      {% if page.date %}<span>发表于 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y' }} 年</time></span>{% endif %}
+      {% assign published_date = page.date | date: '%Y-%m-%d' %}
+      {% assign modified_date = page.last_modified_at | date: '%Y-%m-%d' %}
+      {% if page.last_modified_at and modified_date != published_date %}<span>更新于 <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ modified_date }}</time></span>{% endif %}
+    </p>
   </header>
-  <details class="essay-toc" hidden>
-    <summary>本文目录</summary>
-    <nav aria-label="本文目录"></nav>
-  </details>
-  <div class="essay-body">
-    {{ content }}
+  <div class="essay-layout">
+    <details class="essay-toc" hidden>
+      <summary>本文目录</summary>
+      <nav aria-label="本文目录"></nav>
+    </details>
+    <div class="essay-body">
+      {{ content }}
+    </div>
   </div>
+  {% assign essays = site.pages | where: 'layout', 'essay' | where_exp: 'essay', 'essay.published != false' | sort: 'date' %}
+  {% assign previous_essay = nil %}
+  {% assign next_essay = nil %}
+  {% for essay in essays %}
+    {% if essay.url == page.url %}
+      {% unless forloop.first %}{% assign previous_index = forloop.index0 | minus: 1 %}{% assign previous_essay = essays[previous_index] %}{% endunless %}
+      {% unless forloop.last %}{% assign next_index = forloop.index0 | plus: 1 %}{% assign next_essay = essays[next_index] %}{% endunless %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if previous_essay or next_essay %}
+  <nav class="essay-pagination" aria-label="相邻文章">
+    {% if previous_essay %}<a class="essay-pagination-link essay-previous" href="{{ previous_essay.url | relative_url }}" rel="prev"><span class="essay-pagination-label">← 上一篇</span><span class="essay-pagination-title">{{ previous_essay.title | escape }}</span></a>{% endif %}
+    {% if next_essay %}<a class="essay-pagination-link essay-next" href="{{ next_essay.url | relative_url }}" rel="next"><span class="essay-pagination-label">下一篇 →</span><span class="essay-pagination-title">{{ next_essay.title | escape }}</span></a>{% endif %}
+  </nav>
+  {% endif %}
   <footer class="essay-end">
     <a href="{{ '/personal-blogs/' | relative_url }}">← 返回文章列表</a>
     <a href="{{ '/feed.xml' | relative_url }}">订阅 RSS</a>

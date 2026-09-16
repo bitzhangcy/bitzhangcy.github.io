@@ -12,10 +12,21 @@ page_class: reading-page
 
 <p class="page-intro">一份持续积累的阅读记录。按年份整理读过的书与文章，也留下值得回看的线索。</p>
 
+<div class="reading-tools" role="search" aria-label="查找阅读记录" hidden>
+  <label for="reading-search">查找一本书或文章</label>
+  <div class="reading-search-field">
+    <input id="reading-search" type="search" placeholder="输入书名或文章名" aria-describedby="reading-result-count" autocomplete="off" spellcheck="false">
+    <button class="reading-search-clear" type="button" hidden>清除</button>
+  </div>
+  <p id="reading-result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+</div>
+
 <nav class="year-nav" aria-label="按阅读年份跳转">
   <a href="#reading-2026">2026</a><a href="#reading-2025">2025</a><a href="#reading-2024">2024</a><a href="#reading-2023">2023</a>
   <a href="#reading-2022">2022</a><a href="#reading-2021">2021</a><a href="#reading-2020">2020</a><a href="#readings-2010s">2010–2019</a>
 </nav>
+
+<p class="reading-empty" hidden>没有找到匹配的书名或文章名。试试更短的关键词，或清除搜索。</p>
 
 ## 2026 {#reading-2026}
 - [《货币从哪里来？》](https://book.douban.com/subject/36187673/)
