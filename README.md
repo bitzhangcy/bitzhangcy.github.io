@@ -50,7 +50,7 @@ On macOS or Linux, use `JEKYLL_ENV=production bundle exec jekyll build --destina
 
 The **Check site** GitHub Actions workflow runs the publishing-rule tests, a production Jekyll build, and these checks on pushes and pull requests; it can also be run manually from the Actions tab. It has read-only repository permissions and does not deploy. Existing GitHub Pages publication remains separate; making this check a required branch check is an optional repository setting.
 
-Build folders, local tools, caches, and installed dependencies are ignored by Git and excluded from the generated site. The existing `_site` folder may be stale; use a fresh `_site-preview` build for review.
+Build folders, local tools, caches, and installed dependencies are ignored by Git and excluded from the generated site. Generated `_site`, `_site-preview`, and `_site-production` folders can be removed after review and recreated with a fresh build. Keep `.bundle`, installed `vendor` libraries, and any runtime or build helper in `.tools` while they are used for local preview; downloaded installers, package archives, and old logs are disposable.
 
 ## Editing content
 

@@ -18,8 +18,26 @@
 .essay-body strong { font-weight: 700; }
 .essay-body blockquote { border-left: 2px solid #b5b9d4; margin: 1.4rem 0 1.8rem; padding: .25rem 1.25rem; color: var(--muted); }
 .essay-body .essay-quote { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; color: #586085; background: #f5f5f9; padding: 1rem 1.25rem; font-size: 1.03rem; border-radius: 0 6px 6px 0; }
-.essay-body > .essay-quote:first-child { margin-top: 0; }
-.essay-quote p { margin: .3rem 0; text-align: left; }
+.essay-body > .essay-quote:first-child {
+  margin: 0 0 2.25rem;
+  padding: 1.25rem clamp(.9rem, 3vw, 1.75rem) 1.4rem;
+  border-inline: 0;
+  border-block: 1px solid #dcdbe8;
+  border-radius: 0;
+  color: #454d70;
+  background: #f6f5fa;
+  font-size: clamp(1.125rem, 2.1vw, 1.3rem);
+  font-weight: 600;
+  line-height: 2.1;
+  letter-spacing: .03em;
+  text-align: center;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+.essay-body > .essay-quote:first-child p { margin: .3rem 0; text-align: center; text-indent: 0; }
+.essay-body > .essay-quote:first-child .essay-verse { display: inline-block; max-width: 100%; white-space: normal; }
+.essay-body .essay-quote p { margin: .3rem 0; text-align: center; }
 .essay-body .essay-signoff { text-align: right; font-size: .92rem; color: var(--muted); }
 .kaiti { font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif; }
 .essay-toc { position: sticky; top: var(--header-height); z-index: 30; border: 1px solid var(--line); padding: 0 .9rem; border-radius: 7px; margin: 0 0 1.4rem; font: .85rem/1.7 var(--sans); background: #fdfdfc; box-shadow: 0 3px 12px #252b3205; }
@@ -61,6 +79,7 @@
   .essay-body { font-size: 17px; line-height: 1.95; letter-spacing: .01em; }
   .essay-body p { text-align: left; }
   .essay-body .essay-quote { padding: .75rem 1rem; font-size: 1rem; }
+  .essay-body > .essay-quote:first-child { margin-bottom: 1.75rem; padding: 1rem .9rem; }
   .essay-body h2 { font-size: 1.4rem; }
   .essay-toc { margin-bottom: 1rem; }
   .essay-toc a { min-height: 44px; padding-top: .6rem; padding-bottom: .6rem; }
@@ -77,4 +96,5 @@
   .has-toc .essay-layout { display: block; }
   .has-toc .essay-heading { margin-left: 0; }
   .essay-body { font-size: 11pt; line-height: 1.8; }
+  .essay-body > .essay-quote:first-child { margin-bottom: 1.3rem; padding: .6rem 0; border-color: #aaa; color: #222; background: none; font-size: 12pt; line-height: 1.9; break-inside: avoid; }
 }
